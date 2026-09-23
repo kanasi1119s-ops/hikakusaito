@@ -1,0 +1,19 @@
+{
+  "name": "AI月額プラン比較",
+  "short_name": "AI比較",
+  "description": "主要AIアシスタントの月額プランを料金・機能・出典つきで比較できるサイト",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#2b5fd9",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
