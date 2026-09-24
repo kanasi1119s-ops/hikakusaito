@@ -1,0 +1,74 @@
+name: Daily data freshness check
+
+# 毎朝9時(JST、UTC 0:00)に、掲載データの確認日が90日を超えていないか自動チェックします。
+# 古いデータが見つかった場合のみ、GitHub Issueを作成/更新してお知らせします（変化がなければ何もしません）。
+#
+# 注意: このワークフローは「データの古さ」を機械的にチェックするだけで、
+# 料金改定などの実際の業界ニュースをAIが自動で調査して記事化するものではありません。
+# ニュース記事（docs等ではなく src/data/news.json）の更新には、人間またはAIオーケストレーターの
+# セッションによる調査・判断が必要です。
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check data freshness
+        id: check
+        run: |
+          node -e '
+            const data = require("./src/data/plans.json");
+            const now = new Date();
+            const ninetyDaysMs = 90 * 24 * 60 * 60 * 1000;
+            const stale = [];
+            for (const plan of data.plans) {
+              const checked = new Date(plan.checkedAt);
+              if (now.getTime() - checked.getTime() > ninetyDaysMs) {
+                stale.push(`- ${plan.service} ${plan.planName} (id: ${plan.id}, checkedAt: ${plan.checkedAt})`);
+              }
+            }
+            const fs = require("fs");
+            if (stale.length > 0) {
+              fs.writeFileSync("stale.txt", stale.join("\n"));
+              console.log("STALE_FOUND=true");
+            } else {
+              console.log("STALE_FOUND=false");
+            }
+          ' | tee check-output.log
+          if grep -q "STALE_FOUND=true" check-output.log; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open or update issue if data is stale
+        if: steps.check.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="[自動チェック] 確認日が90日を超えたプランがあります"
+          BODY_FILE=$(mktemp)
+          {
+            echo "毎朝9時(JST)の自動チェックで、確認日から90日以上経過しているプランを検出しました。"
+            echo ""
+            echo "公式サイトで料金・仕様を再確認し、docs/DATA_UPDATE.md の手順に従って src/data/plans.json を更新してください。"
+            echo ""
+            cat stale.txt
+          } > "$BODY_FILE"
+
+          EXISTING=$(gh issue list --search "$TITLE in:title" --state open --json number --jq '.[0].number' || true)
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body-file "$BODY_FILE"
+          else
+            gh issue create --title "$TITLE" --body-file "$BODY_FILE" --label "data-freshness"
+          fi

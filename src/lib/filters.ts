@@ -6,6 +6,7 @@ export interface FilterState {
   billingCycle: BillingCycle;
   months: number;
   keyword: string;
+  category: string;
 }
 
 export const DEFAULT_FILTERS: FilterState = {
@@ -14,6 +15,7 @@ export const DEFAULT_FILTERS: FilterState = {
   billingCycle: "monthly",
   months: 12,
   keyword: "",
+  category: "all",
 };
 
 export function applyFilters<T extends Record<string, unknown>>(
@@ -29,6 +31,10 @@ export function applyFilters<T extends Record<string, unknown>>(
       if (!company.includes(kw) && !service.includes(kw) && !planName.includes(kw)) {
         return false;
       }
+    }
+
+    if (filters.category !== "all" && plan.category !== filters.category) {
+      return false;
     }
 
     for (const feature of filters.requiredFeatures) {

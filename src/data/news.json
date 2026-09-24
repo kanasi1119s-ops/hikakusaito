@@ -1,0 +1,33 @@
+{
+  "lastCheckedAt": "2026-09-23",
+  "articles": [
+    {
+      "id": "2026-09-23-expand-140",
+      "date": "2026-09-23",
+      "title": "掲載プランを12件から149件に拡大しました",
+      "body": "汎用AIチャットに加えて、コーディング支援・画像生成・動画生成・音声音楽生成・文章作成/マーケティング・議事録/文字起こし・生産性/オフィス統合・デザイン/プレゼン・リサーチ/学習支援など、幅広い分野のAIツールを追加しました。あわせて日本円での参考価格表示、分野での絞り込み、知名度の目安による並べ替えにも対応しました。",
+      "relatedServices": []
+    },
+    {
+      "id": "2026-09-23-google-ai-ultra-price-cut",
+      "date": "2026-09-23",
+      "title": "Google AI Ultraに新たに月額$99.99の下位ティアが追加",
+      "body": "GoogleのAI Ultraプランについて、従来の$249.99からの値下げを経て、2026年に月額$199.99（20倍利用枠）に加え、新たに月額$99.99（5倍利用枠）のティアが追加されたとの情報を確認しました。詳しくは比較表のGoogle AI Ultraの項目をご覧ください。",
+      "relatedServices": ["gemini-ai-ultra-5x"]
+    },
+    {
+      "id": "2026-09-23-microsoft-copilot-pro-retired",
+      "date": "2026-09-23",
+      "title": "Microsoft Copilot Pro単体プランが終了、Microsoft 365 Premiumに統合",
+      "body": "個人向けの単体プランだった「Copilot Pro」は2026年8月1日でサポートが終了し、Word・Excel・PowerPoint・Outlookと統合された「Microsoft 365 Premium」（月額$19.99）が新しい個人向けの入り口となりました。本サイトも掲載プランをMicrosoft 365 Premiumに更新しています。",
+      "relatedServices": ["microsoft-365-premium"]
+    },
+    {
+      "id": "2026-09-23-coding-assistants-price-changes",
+      "date": "2026-09-23",
+      "title": "コーディング支援AI各社で料金体系の変更が相次ぐ",
+      "body": "Windsurf（旧Codeium）はクレジット制から日次/週次のクォータ制に移行し、月額がPro $15から$20へ改定されました。GitHub Copilotはトークン従量制のAIクレジット制度を導入。Amazon Q Developerは2026年5月に新規申込を終了し、2027年4月30日にサービス終了予定（後継はKiro）と案内されています。",
+      "relatedServices": ["windsurf-pro", "github-copilot-pro", "amazon-q-developer-pro"]
+    }
+  ]
+}
