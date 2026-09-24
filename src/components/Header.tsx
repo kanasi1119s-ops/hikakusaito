@@ -1,4 +1,4 @@
-export type View = "list" | "compare" | "about" | "howto";
+export type View = "list" | "compare" | "news" | "about" | "howto";
 
 interface HeaderProps {
   view: View;
@@ -9,6 +9,7 @@ interface HeaderProps {
 const NAV_ITEMS: { key: View; label: string }[] = [
   { key: "list", label: "比較表" },
   { key: "compare", label: "横並び比較" },
+  { key: "news", label: "お知らせ" },
   { key: "howto", label: "使い方" },
   { key: "about", label: "このサイトについて" },
 ];

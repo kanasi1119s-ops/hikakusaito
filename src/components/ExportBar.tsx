@@ -7,18 +7,19 @@ interface ExportBarProps {
   visiblePlans: Plan[];
   shareUrl: string;
   onImported: () => void;
+  jpyPerUsd: number;
 }
 
 function today(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
-export function ExportBar({ visiblePlans, shareUrl, onImported }: ExportBarProps) {
+export function ExportBar({ visiblePlans, shareUrl, onImported, jpyPerUsd }: ExportBarProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<string | null>(null);
 
   function handleCsvExport() {
-    downloadCsv(visiblePlans, `ai-plan-compare-${today()}.csv`);
+    downloadCsv(visiblePlans, `ai-plan-compare-${today()}.csv`, jpyPerUsd);
     setMessage("CSVファイルをダウンロードしました。");
   }
 

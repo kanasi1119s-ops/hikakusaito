@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { estimateTotalCostUsd } from "../calc";
+import { estimateTotalCostUsd, usdToJpy } from "../calc";
 import type { Plan } from "../schema";
 
 const basePlan: Plan = {
@@ -8,6 +8,8 @@ const basePlan: Plan = {
   service: "Test",
   planName: "Test",
   category: "general_chat",
+  descriptionJa: "テスト用の説明文です。",
+  popularityTier: 1,
   mainModel: "test",
   priceMonthlyUsd: 20,
   priceAnnualMonthlyUsd: 17,
@@ -48,5 +50,20 @@ describe("estimateTotalCostUsd", () => {
   it("小数を含む金額を正しく丸める", () => {
     const plan: Plan = { ...basePlan, priceMonthlyUsd: 16.67, priceAnnualMonthlyUsd: null };
     expect(estimateTotalCostUsd(plan, "monthly", 3)).toBe(50.01);
+  });
+
+  it("月額料金が未確認（null）のプランはnullを返す", () => {
+    const plan: Plan = { ...basePlan, priceMonthlyUsd: null, priceAnnualMonthlyUsd: null };
+    expect(estimateTotalCostUsd(plan, "monthly", 12)).toBeNull();
+  });
+});
+
+describe("usdToJpy", () => {
+  it("米ドルを為替レートで円に換算する", () => {
+    expect(usdToJpy(20, 150)).toBe(3000);
+  });
+
+  it("小数を四捨五入する", () => {
+    expect(usdToJpy(19.99, 158.28)).toBe(Math.round(19.99 * 158.28));
   });
 });

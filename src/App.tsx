@@ -9,7 +9,8 @@ import { CompareView } from "./components/CompareView";
 import { ExportBar } from "./components/ExportBar";
 import { AboutPage } from "./components/AboutPage";
 import { HowToPage } from "./components/HowToPage";
-import { PLANS } from "./data/loadPlans";
+import { NewsPage } from "./components/NewsPage";
+import { PLANS, EXCHANGE_RATE } from "./data/loadPlans";
 import { loadFavorites, saveFavorites, loadConditions, saveConditions } from "./lib/storage";
 import { readSelectedFromUrl, writeSelectedToUrl, buildShareUrl } from "./lib/share";
 
@@ -31,8 +32,11 @@ function App() {
       requiredFeatures: filters.requiredFeatures,
       maxPriceUsd: filters.maxPriceUsd,
       billingCycle: filters.billingCycle,
+      months: filters.months,
+      keyword: filters.keyword,
+      category: filters.category,
     });
-  }, [filters.requiredFeatures, filters.maxPriceUsd, filters.billingCycle]);
+  }, [filters]);
 
   useEffect(() => {
     writeSelectedToUrl(selectedIds);
@@ -77,7 +81,11 @@ function App() {
               visiblePlans={filteredPlans}
               shareUrl={buildShareUrl(selectedIds)}
               onImported={handleRestored}
+              jpyPerUsd={EXCHANGE_RATE.jpyPerUsd}
             />
+            <p className="exchange-rate-note">
+              為替レート: {EXCHANGE_RATE.asOf}時点 1USD=¥{EXCHANGE_RATE.jpyPerUsd.toFixed(2)}（毎日変動します。実際のご請求額はカード会社のレートによります）
+            </p>
             <PlanTable
               plans={filteredPlans}
               favorites={favorites}
@@ -86,14 +94,16 @@ function App() {
               onToggleSelect={toggleSelect}
               billingCycle={filters.billingCycle}
               months={filters.months}
+              jpyPerUsd={EXCHANGE_RATE.jpyPerUsd}
             />
           </>
         ) : null}
 
         {view === "compare" ? (
-          <CompareView plans={selectedPlans} onRemove={toggleSelect} />
+          <CompareView plans={selectedPlans} onRemove={toggleSelect} jpyPerUsd={EXCHANGE_RATE.jpyPerUsd} />
         ) : null}
 
+        {view === "news" ? <NewsPage /> : null}
         {view === "about" ? <AboutPage /> : null}
         {view === "howto" ? <HowToPage /> : null}
       </main>

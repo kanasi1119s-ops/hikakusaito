@@ -8,6 +8,8 @@ const plan: Plan = {
   service: "テストサービス",
   planName: "プラン,カンマ入り",
   category: "general_chat",
+  descriptionJa: "テスト用の説明文です。",
+  popularityTier: 2,
   mainModel: "テストモデル",
   priceMonthlyUsd: 20,
   priceAnnualMonthlyUsd: null,
@@ -26,27 +28,34 @@ const plan: Plan = {
   note: "テスト",
 };
 
+const JPY_PER_USD = 150;
+
 describe("plansToCsv", () => {
   it("ヘッダー行とデータ行を出力する", () => {
-    const csv = plansToCsv([plan]);
+    const csv = plansToCsv([plan], JPY_PER_USD);
     const lines = csv.split("\r\n");
     expect(lines.length).toBe(2);
     expect(lines[0]).toContain("提供会社");
   });
 
   it("カンマを含む値をダブルクォートで囲む", () => {
-    const csv = plansToCsv([plan]);
+    const csv = plansToCsv([plan], JPY_PER_USD);
     expect(csv).toContain('"プラン,カンマ入り"');
   });
 
   it("nullの値は未確認と表示する", () => {
-    const csv = plansToCsv([plan]);
+    const csv = plansToCsv([plan], JPY_PER_USD);
     expect(csv).toContain("—（未確認）");
   });
 
   it("真偽値を日本語のあり/なしに変換する", () => {
-    const csv = plansToCsv([plan]);
+    const csv = plansToCsv([plan], JPY_PER_USD);
     expect(csv).toContain("あり");
     expect(csv).toContain("なし");
+  });
+
+  it("為替レートを使って円換算額を出力する", () => {
+    const csv = plansToCsv([plan], JPY_PER_USD);
+    expect(csv).toContain("¥3,000");
   });
 });

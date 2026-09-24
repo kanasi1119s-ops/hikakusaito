@@ -24,6 +24,9 @@ export interface SavedConditions {
   requiredFeatures: string[];
   maxPriceUsd: number | null;
   billingCycle: "monthly" | "annual";
+  months?: number;
+  keyword?: string;
+  category?: string;
 }
 
 export function loadConditions(): SavedConditions | null {

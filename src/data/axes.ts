@@ -10,8 +10,9 @@ export interface AxisDef {
 
 export const AXES: AxisDef[] = [
   { key: "company", label: "提供会社", type: "text", description: "サービスを提供している会社名。" },
-  { key: "service", label: "サービス名", type: "text", description: "AIアシスタントのサービス名。" },
+  { key: "service", label: "サービス名", type: "text", description: "AIツールのサービス名。" },
   { key: "planName", label: "プラン名", type: "text", description: "サービス内でのプラン名。" },
+  { key: "descriptionJa", label: "説明", type: "text", description: "このソフトが何をするものかの簡単な説明。" },
   { key: "priceMonthlyUsd", label: "月額料金（月払い）", type: "price", unit: "USD/月", description: "毎月払いを選んだ場合の月額料金（米ドル）。" },
   { key: "priceAnnualMonthlyUsd", label: "月額料金（年払い時）", type: "price", unit: "USD/月", description: "年払いを選んだ場合に割った月あたりの料金（米ドル）。年払いが無い場合は「—」。" },
   { key: "hasFreeTier", label: "無料プランの有無", type: "boolean", description: "同じサービス内に無料で使えるプランがあるか。" },
@@ -20,12 +21,36 @@ export const AXES: AxisDef[] = [
   { key: "imageGeneration", label: "画像生成", type: "boolean-null", description: "文章から画像を作る機能があるか。" },
   { key: "videoGeneration", label: "動画生成", type: "boolean-null", description: "文章から動画を作る機能があるか。" },
   { key: "agentFeature", label: "自動操作エージェント機能", type: "boolean-null", description: "AIが複数の作業を自動でまとめて実行してくれる機能（エージェント機能）があるか。" },
-  { key: "apiIncluded", label: "API利用がプランに含まれるか", type: "boolean", description: "開発者向けAPIの利用がこの月額プランの料金に含まれているか（多くの場合、別料金）。" },
-  { key: "teamPlanAvailable", label: "チーム・法人プランの有無", type: "boolean", description: "同じサービスに、チームや会社向けのプランが別途あるか。" },
+  { key: "apiIncluded", label: "API利用がプランに含まれるか", type: "boolean-null", description: "開発者向けAPIの利用がこの月額プランの料金に含まれているか（多くの場合、別料金）。" },
+  { key: "teamPlanAvailable", label: "チーム・法人プランの有無", type: "boolean-null", description: "同じサービスに、チームや会社向けのプランが別途あるか。" },
 ];
 
 export const CATEGORY_LABELS: Record<string, string> = {
   general_chat: "汎用AIチャット",
   search_focused: "検索特化",
   office_integrated: "オフィス統合",
+  coding_assistant: "コーディング支援",
+  image_generation: "画像生成",
+  video_generation: "動画生成",
+  audio_music_generation: "音声・音楽生成",
+  writing_marketing: "文章作成・マーケ",
+  meeting_transcription: "議事録・文字起こし",
+  productivity_office: "生産性・オフィス統合",
+  design_presentation: "デザイン・プレゼン",
+  research_education: "リサーチ・学習",
 };
+
+export const CATEGORY_ORDER: string[] = [
+  "general_chat",
+  "search_focused",
+  "coding_assistant",
+  "image_generation",
+  "video_generation",
+  "audio_music_generation",
+  "writing_marketing",
+  "meeting_transcription",
+  "productivity_office",
+  "office_integrated",
+  "design_presentation",
+  "research_education",
+];

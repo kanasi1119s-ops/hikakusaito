@@ -1,4 +1,5 @@
 import type { FilterState } from "../lib/filters";
+import { CATEGORY_LABELS, CATEGORY_ORDER } from "../data/axes";
 
 interface FilterPanelProps {
   filters: FilterState;
@@ -26,6 +27,22 @@ export function FilterPanel({ filters, onChange }: FilterPanelProps) {
   return (
     <section className="filter-panel" aria-label="絞り込み条件">
       <h2 className="filter-panel__title">条件で絞り込む</h2>
+
+      <div className="filter-panel__row">
+        <label htmlFor="category-filter">分野で絞り込む</label>
+        <select
+          id="category-filter"
+          value={filters.category}
+          onChange={(e) => onChange({ ...filters, category: e.target.value })}
+        >
+          <option value="all">すべての分野</option>
+          {CATEGORY_ORDER.map((cat) => (
+            <option key={cat} value={cat}>
+              {CATEGORY_LABELS[cat] ?? cat}
+            </option>
+          ))}
+        </select>
+      </div>
 
       <div className="filter-panel__row">
         <label htmlFor="keyword-filter">サービス名・会社名で検索</label>

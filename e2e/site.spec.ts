@@ -130,6 +130,39 @@ test.describe("比較サイトの主要フロー", () => {
     expect(bodyText).toContain("出典");
   });
 
+  test("分野で絞り込むと該当カテゴリのプランだけが表示される", async ({ page }) => {
+    await page.goto("/");
+    await page.getByLabel("分野で絞り込む").selectOption("coding_assistant");
+    const rows = page.locator("table.plan-table tbody tr");
+    const count = await rows.count();
+    expect(count).toBeGreaterThan(5);
+    await expect(rows.first().locator("td").nth(4)).toContainText("コーディング支援");
+  });
+
+  test("日本円の参考価格と為替レートの確認日が表示される", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator(".exchange-rate-note")).toContainText("為替レート");
+    await expect(page.locator(".exchange-rate-note")).toContainText("毎日変動");
+    const firstJpyCell = page.locator("table.plan-table tbody tr").first().locator("td").nth(7);
+    await expect(firstJpyCell).toContainText("¥");
+  });
+
+  test("知名度の目安の見出しを押すと並べ替えができる", async ({ page }) => {
+    await page.goto("/");
+    const header = page.getByRole("button", { name: /知名度の目安/ });
+    await header.click();
+    const firstTier = page.locator("table.plan-table tbody tr").first().locator("td").nth(5);
+    await expect(firstTier).toContainText("★");
+  });
+
+  test("お知らせページに記事が表示される", async ({ page }) => {
+    await page.goto("/");
+    await page.getByRole("button", { name: "お知らせ" }).click();
+    await expect(page.getByRole("heading", { name: "お知らせ" })).toBeVisible();
+    const articles = page.locator(".news-article");
+    expect(await articles.count()).toBeGreaterThan(0);
+  });
+
   test("オフラインでも比較表の閲覧・絞り込みができる（PWAキャッシュ確認）", async ({ page, context }) => {
     await page.goto("/");
     await expect(page.locator("table.plan-table")).toBeVisible();

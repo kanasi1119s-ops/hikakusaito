@@ -1,10 +1,13 @@
 import type { Plan } from "./schema";
-import { AXES } from "../data/axes";
+import { AXES, CATEGORY_LABELS } from "../data/axes";
+import { usdToJpy } from "./calc";
 
 function formatCell(plan: Plan, key: string): string {
   const value = (plan as unknown as Record<string, unknown>)[key];
   if (value === null || value === undefined) return "—（未確認）";
   if (typeof value === "boolean") return value ? "あり" : "なし";
+  if (key === "category") return CATEGORY_LABELS[String(value)] ?? String(value);
+  if (key === "priceMonthlyUsd" || key === "priceAnnualMonthlyUsd") return `$${Number(value).toFixed(2)}`;
   return String(value);
 }
 
@@ -15,12 +18,15 @@ function escapeCsvField(field: string): string {
   return field;
 }
 
-export function plansToCsv(plans: Plan[]): string {
-  const headers = ["ID", ...AXES.map((a) => a.label), "出典URL", "確認日"];
+export function plansToCsv(plans: Plan[], jpyPerUsd: number): string {
+  const headers = ["ID", ...AXES.map((a) => a.label), "月額料金（円換算）", "知名度の目安(1が高い、編集部目安)", "出典URL", "確認日"];
   const rows = plans.map((plan) => {
+    const monthlyJpy = plan.priceMonthlyUsd === null ? "—" : `¥${usdToJpy(plan.priceMonthlyUsd, jpyPerUsd).toLocaleString("ja-JP")}`;
     const cells = [
       plan.id,
       ...AXES.map((a) => formatCell(plan, a.key)),
+      monthlyJpy,
+      String(plan.popularityTier),
       plan.sourceUrl,
       plan.checkedAt,
     ];
@@ -31,8 +37,8 @@ export function plansToCsv(plans: Plan[]): string {
 
 const BOM = "﻿";
 
-export function downloadCsv(plans: Plan[], filename: string): void {
-  const csv = BOM + plansToCsv(plans);
+export function downloadCsv(plans: Plan[], filename: string, jpyPerUsd: number): void {
+  const csv = BOM + plansToCsv(plans, jpyPerUsd);
   const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
   triggerDownload(blob, filename);
 }
