@@ -35,6 +35,8 @@
 7. **公開後の運用**
    - `docs/DATA_UPDATE.md` の手順で定期的にデータを更新してください。
    - CI（`.github/workflows/ci.yml`）がpushのたびに lint・型チェック・テスト・ビルド・データ鮮度チェックを実行します。
+   - `.github/workflows/daily-data-check.yml` が毎朝9時(JST)にデータの確認日をチェックし、90日を超えたものがあればGitHub Issueを作成します（無料、追加設定不要）。
+   - `.github/workflows/ai-news-check.yml` は毎朝9時頃、Gemini API（Web検索つき）で日替わりに約15件の料金変化を自動チェックし、確信度の高い変化を検知した場合のみプルリクエストを自動作成します（`GOOGLE_API_KEY` シークレットを登録済みの場合のみ動作。従量課金のAPI費用が発生します）。**このワークフローが作成したプルリクエストは、必ず出典URLで人間が内容を確認してからマージしてください。AIの検知結果には誤りが含まれる可能性があります。** 費用を抑えたい・一時停止したい場合は、リポジトリの Settings > Secrets and variables > Actions > Variables で `AI_NEWS_CHECK_ENABLED` を `false` に設定すると、次回以降このジョブをスキップできます。
 
 ## ロールバック
 
