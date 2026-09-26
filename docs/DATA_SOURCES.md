@@ -1,6 +1,6 @@
 # データ出典一覧（DATA_SOURCES.md）
 
-作成日: 2026-09-23 / 最終更新: 2026-09-23（12→149プランへ拡大） / 対象: `src/data/plans.json`
+作成日: 2026-09-23 / 最終更新: 2026-09-26（ChatGPT Pro・Google AI Ultraの2段階ティア化に対応、149→151プラン） / 対象: `src/data/plans.json`
 
 ## 出典の調査方法について（重要な制約）
 
@@ -13,12 +13,14 @@
 | # | プラン | 出典URL | 確認日 | 確認方法 |
 |---|---|---|---|---|
 | 1 | ChatGPT Plus | https://openai.com/chatgpt/pricing/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可） |
-| 2 | ChatGPT Pro | https://openai.com/chatgpt/pricing/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可、価格に複数の報告あり・要再確認） |
+| 2a | ChatGPT Pro（$100ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。2026年4月新設の中間ティアを新規追加 |
+| 2b | ChatGPT Pro（$200ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。前回サイクルで要確認としていた$100〜$200のばらつきを、2段階ティアとして解消 |
 | 3 | Claude Pro | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 4 | Claude Max 5x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 5 | Claude Max 20x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得＋検索エンジンでダブルチェック |
 | 6 | Google AI Pro (Gemini) | https://one.google.com/about/google-ai-plans/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可） |
-| 7 | Google AI Ultra (Gemini) | https://one.google.com/about/google-ai-plans/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可、2026年の価格改定情報あり） |
+| 7a | Google AI Ultra（$99.99ティア） | https://gemini.google/subscriptions/ | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。2026年のGoogle I/Oで新設された下位ティア |
+| 7b | Google AI Ultra（$199.99ティア） | https://gemini.google/subscriptions/ | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。前回$250→$199.99への改定を「要確認」としていたが、2段階ティア化として確定 |
 | 8 | Perplexity Pro | https://www.perplexity.ai/pricing | 2026-09-23 | 検索エンジン経由（直接アクセス不可） |
 | 9 | Perplexity Max | https://www.perplexity.ai/pricing | 2026-09-23 | 検索エンジン経由（直接アクセス不可）＋ダブルチェック |
 | 10 | SuperGrok | https://x.ai/pricing | 2026-09-23 | 検索エンジン経由（直接アクセス不可）＋ダブルチェック |
@@ -56,7 +58,7 @@
 - 中国発サービス（Qwen Chat、Kimi、豆包/Doubao、智譜清言/ChatGLM、訊飛星火/iFlytek Spark）は人民元建て価格を1USD≈7.1CNY（2026年9月時点の目安レート）でUSD換算しています。
 - `note` フィールドに「情報源間で金額表記にばらつきがあった」旨の記載があるプランは、特に公開前の再確認を推奨します。
 
-**公開前の最終確認を特に推奨するプラン（情報源間で数値のばらつきが大きかったもの）**: ChatGPT Pro（$100〜$200の情報あり）、Play.ht（$19〜$39）、WellSaid Labs、LOVO AI、InVideo AI、Kling AI、Elai.io、Voicemod、Gamma、Tome、Prezi、Pitch、Consensus、Supernormal、v0 by Vercel（個人向け低価格プランが廃止されTeamのみ）、Clipdrop（通貨表記に差異）。
+**公開前の最終確認を特に推奨するプラン（情報源間で数値のばらつきが大きかったもの）**: Play.ht（$19〜$39）、WellSaid Labs、LOVO AI、InVideo AI、Kling AI、Elai.io、Voicemod、Gamma、Tome、Prezi、Pitch、Consensus、Supernormal、v0 by Vercel（個人向け低価格プランが廃止されTeamのみ）、Clipdrop（通貨表記に差異）。
 
 ## データ更新履歴
 
@@ -64,3 +66,4 @@
 |---|---|
 | 2026-09-23 | 初版作成（12プラン） |
 | 2026-09-23 | 10分野を追加し149プランに拡大。日本円の参考換算・知名度の目安（★）を追加 |
+| 2026-09-26 | 前回サイクルで「要再確認」としていたChatGPT Pro（$100〜$200のばらつき）とGoogle AI Ultra（価格改定情報）について、WebSearchで複数の独立した二次情報源（ニュース記事・各社公式ヘルプ/購読ページのURL）を突き合わせて再調査。両サービスとも2026年に「同一機能・利用量枠違いの2段階ティア」へ変更されていたことが判明したため、それぞれ1プラン→2プランに分割して掲載（149→151プラン）。公式ドメインへの直接アクセスは環境のネットワーク制限により本サイクルも不可だったため、引き続き公開前の公式ページ目視確認を推奨。残り147プランについては、確認日（2026-09-23）が90日以内であり緊急の更新期限には該当しないため、本サイクルでの全件再調査は見送った（次回以降のサイクルで優先度の高いものから順次実施）。 |
