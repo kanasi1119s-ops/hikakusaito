@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased] - 2026-09-27
+
+### Fixed
+- 前サイクルの成果（ChatGPT Pro・Google AI Ultraの2段階ティア化、149→151プラン）がmainに未反映のままだったため、本サイクルで統合
+- Microsoft 365 Premiumの価格・プラン体系をWebSearchで再確認（数値変更なし、確信度向上のため`checkedAt`を更新）
+- 日本円の参考換算に使う為替レートを本日時点の値に更新（158.28→157.19円/USD）
+
 ## [Unreleased] - 2026-09-26
 
 ### Fixed

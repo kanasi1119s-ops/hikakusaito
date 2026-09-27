@@ -1,8 +1,8 @@
 {
-  "dataUpdatedAt": "2026-09-26",
+  "dataUpdatedAt": "2026-09-27",
   "exchangeRate": {
-    "jpyPerUsd": 158.28,
-    "asOf": "2026-09-23",
+    "jpyPerUsd": 157.19,
+    "asOf": "2026-09-27",
     "sourceUrl": "https://tradingeconomics.com/japan/currency",
     "note": "為替レートは日々変動します。表示している日本円換算額は上記日付時点の参考値であり、実際のご請求額はクレジットカード会社の適用レート・手数料により異なります。"
   },
@@ -352,8 +352,8 @@
       "teamPlanAvailable": true,
       "usageNote": "Word/Excel/PowerPoint/Outlook内でのAI優先アクセスを含む。単体のCopilot Proプランは2026年8月1日でサポート終了し、本プランへ統合された。",
       "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/premium",
-      "checkedAt": "2026-09-23",
-      "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。プラン体系が2025年後半〜2026年にかけて変更されているため、公開前に公式ページでの再確認を強く推奨。",
+      "checkedAt": "2026-09-27",
+      "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。2026-09-27に複数の独立した二次情報源（Velosio・GoSearch・Oreate AI Guides等の解説記事）で$19.99/月・単体Copilot Proプランの終了という内容を再確認し、前回サイクルからの数値変更はなかった。ただしCopilot Pro終了時期は情報源により2025年後半〜2026年8月と幅があり確定できないため、公開前に公式ページでの再確認を引き続き推奨。",
       "descriptionJa": "Word・Excel・PowerPoint・Outlookなど、Microsoft 365製品内でAI機能（Copilot）を優先的に利用できるプラン。",
       "popularityTier": 1
     },
