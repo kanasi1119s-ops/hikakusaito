@@ -16,3 +16,9 @@
 ## 総合判定
 
 High以上の既知脆弱性・秘密情報の混入・コピーレフトライセンスの衝突は検出されませんでした。次フェーズ（法務レビュー）へ進行可能と判断します。
+
+## 追記: 2026-09-28サイクル（公式サイトリンクのプレースホルダー追加）
+
+- 新規追加した `AffiliateCta`（`src/components/AffiliateCta.tsx`）は `href="#"` かつ `onClick` で `preventDefault()` しており、現時点では外部への遷移が一切発生しない（クリックしてもページ内に留まる）ことをユニットテスト・E2Eテストで確認済み。
+- `data-affiliate="pending"` を付与しており、将来実際のリンク先URLに差し替える際は `rel="sponsored noopener"` を付与するよう `docs/RELEASE.md` に明記した。
+- `npm audit`・`npx license-checker-rseidelsohn` を本サイクルでも再実行し、結果に変化がないことを確認（脆弱性0件、コピーレフトライセンスなし）。

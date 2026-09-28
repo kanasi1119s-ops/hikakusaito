@@ -5,6 +5,7 @@
 ### Added
 - 比較表・横並び比較の会社名の横に、会社名から自動生成した色付きイニシャルバッジを追加し、どの会社のソフトか一覧で見分けやすくした（`src/lib/companyBadge.ts`）。実際の企業ロゴ・商標画像は無断使用を避けるため使用していない（詳細は`docs/legal/CHECKLIST.md`の2026-09-28追記を参照）
 - GitHub Pagesをmainへのpushで自動デプロイするよう変更（オーナー承認済み）
+- 比較表・横並び比較の各プランに、将来のアフィリエイト提携に備えた「公式サイトへ（準備中）」ボタンを追加（`src/components/AffiliateCta.tsx`）。`href="#"`・`data-affiliate="pending"`のプレースホルダーで、常に「PR」表記を表示し、クリックしても画面は移動しない。実際のリンク埋め込みには人間による提携判断・ASP登録が必要（詳細は`docs/RELEASE.md`、`docs/legal/CHECKLIST.md`の2026-09-28追記を参照）
 
 ## [Unreleased] - 2026-09-27
 

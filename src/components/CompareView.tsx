@@ -4,6 +4,7 @@ import { AXES } from "../data/axes";
 import { usdToJpy } from "../lib/calc";
 import { formatJpy } from "../lib/currency";
 import { CompanyBadge } from "./CompanyBadge";
+import { AffiliateCta } from "./AffiliateCta";
 
 interface CompareViewProps {
   plans: Plan[];
@@ -87,6 +88,14 @@ export function CompareView({ plans, onRemove, jpyPerUsd }: CompareViewProps) {
                   出典
                 </a>
                 <div>{plan.checkedAt}</div>
+              </td>
+            ))}
+          </tr>
+          <tr>
+            <th scope="row">公式サイト</th>
+            {plans.map((plan) => (
+              <td key={plan.id}>
+                <AffiliateCta label={`${plan.service} 公式サイトへ`} />
               </td>
             ))}
           </tr>

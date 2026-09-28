@@ -242,6 +242,35 @@ fieldset.filter-panel__row {
   color: #d9a300;
 }
 
+.affiliate-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.affiliate-cta--pending {
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  color: var(--color-muted);
+  cursor: not-allowed;
+}
+
+.affiliate-cta__badge {
+  display: inline-block;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  background: #6b7280;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+}
+
 .compare-view__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

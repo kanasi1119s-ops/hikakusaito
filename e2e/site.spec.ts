@@ -16,6 +16,18 @@ test.describe("比較サイトの主要フロー", () => {
     await expect(firstRow.locator(".plan-table__checked-at")).toContainText("確認日");
   });
 
+  test("公式サイトへのリンクはアフィリエイト未提携のプレースホルダーで、クリックしても画面遷移しない", async ({ page }) => {
+    await page.goto("/");
+    const firstRow = page.locator("table.plan-table tbody tr").first();
+    const cta = firstRow.locator('a[data-affiliate="pending"]');
+    await expect(cta).toBeVisible();
+    await expect(cta).toContainText("PR");
+    await expect(cta).toContainText("準備中");
+    await expect(cta).toHaveAttribute("href", "#");
+    await cta.click({ force: true });
+    await expect(page).toHaveURL(/\/$/);
+  });
+
   test("キーワード絞り込みが機能する", async ({ page }) => {
     await page.goto("/");
     await page.getByLabel("サービス名・会社名で検索").fill("Claude");
