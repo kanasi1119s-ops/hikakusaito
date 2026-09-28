@@ -3,6 +3,7 @@ import type { Plan } from "../lib/schema";
 import { AXES } from "../data/axes";
 import { usdToJpy } from "../lib/calc";
 import { formatJpy } from "../lib/currency";
+import { CompanyBadge } from "./CompanyBadge";
 
 interface CompareViewProps {
   plans: Plan[];
@@ -42,7 +43,10 @@ export function CompareView({ plans, onRemove, jpyPerUsd }: CompareViewProps) {
             </button>
             <h3>{plan.service}</h3>
             <p className="compare-card__plan-name">{plan.planName}</p>
-            <p className="compare-card__company">{plan.company}</p>
+            <p className="compare-card__company">
+              <CompanyBadge company={plan.company} />
+              {plan.company}
+            </p>
           </div>
         ))}
       </div>

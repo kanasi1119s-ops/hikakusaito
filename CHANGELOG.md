@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] - 2026-09-28
+
+### Added
+- 比較表・横並び比較の会社名の横に、会社名から自動生成した色付きイニシャルバッジを追加し、どの会社のソフトか一覧で見分けやすくした（`src/lib/companyBadge.ts`）。実際の企業ロゴ・商標画像は無断使用を避けるため使用していない（詳細は`docs/legal/CHECKLIST.md`の2026-09-28追記を参照）
+- GitHub Pagesをmainへのpushで自動デプロイするよう変更（オーナー承認済み）
+
 ## [Unreleased] - 2026-09-27
 
 ### Fixed

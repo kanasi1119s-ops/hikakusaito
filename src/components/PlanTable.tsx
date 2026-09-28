@@ -3,6 +3,7 @@ import type { Plan } from "../lib/schema";
 import { estimateTotalCostUsd, usdToJpy, type BillingCycle } from "../lib/calc";
 import { formatUsd, formatJpy } from "../lib/currency";
 import { CATEGORY_LABELS } from "../data/axes";
+import { CompanyBadge } from "./CompanyBadge";
 
 interface PlanTableProps {
   plans: Plan[];
@@ -138,7 +139,10 @@ export function PlanTable({
                     {favorites.includes(plan.id) ? "★" : "☆"}
                   </button>
                 </td>
-                <td>{plan.company}</td>
+                <td>
+                  <CompanyBadge company={plan.company} />
+                  {plan.company}
+                </td>
                 <td>
                   <div className="plan-table__service">{plan.service}</div>
                   <div className="plan-table__plan-name">{plan.planName}</div>
