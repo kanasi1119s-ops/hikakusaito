@@ -1,17 +1,13 @@
 name: Deploy to GitHub Pages
 
-# 注意: このワークフローはビルド成果物を用意するだけで、それ自体はサイトを公開しません。
-# 実際に公開するには、人間が以下を行う必要があります。
-#   1. GitHubのリポジトリ画面で Settings > Pages を開く
-#   2. "Source" を "GitHub Actions" に設定する
-#   3. リポジトリを公開する場合は Settings > General > Danger Zone で public化する
-# これらの手順は docs/RELEASE.md にも記載しています。
+# 2026-09-28: リポジトリのpublic化・Pages有効化（Source: GitHub Actions）が完了し、
+# オーナーの承認を得て、main への push で自動デプロイするよう変更した。
+# 手動で再実行したい場合は Actions タブから workflow_dispatch も引き続き使える。
 
 on:
   workflow_dispatch: {}
-  # Pagesの Source を "GitHub Actions" に設定すると、以後は main への push でも自動デプロイされます。
-  # push:
-  #   branches: [main]
+  push:
+    branches: [main]
 
 permissions:
   contents: read

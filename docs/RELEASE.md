@@ -19,7 +19,7 @@
    - GitHubリポジトリの Settings > General > Danger Zone から変更できます。
 
 3. **静的ホスティングの有効化**（いずれか）
-   - GitHub Pages: `.github/workflows/deploy-pages.yml` を用意済みです。リポジトリの Settings > Pages を開き、"Source" を **"GitHub Actions"** に設定してください。設定後、Actions タブから `Deploy to GitHub Pages` ワークフローを手動実行（workflow_dispatch）すると公開されます。以後 main ブランチへの自動デプロイも行いたい場合は、同ワークフロー内のコメントアウトされている `push: branches: [main]` を有効にしてください。
+   - GitHub Pages: `.github/workflows/deploy-pages.yml` を用意済みです。リポジトリの Settings > Pages を開き、"Source" を **"GitHub Actions"** に設定してください。2026-09-28以降、オーナー承認のもとこのワークフローは `main` への push で自動的にデプロイされます（Actions タブからの手動実行 workflow_dispatch も引き続き可能です）。
    - Cloudflare Pages / Netlify / Vercel 等: 各サービスにリポジトリを接続し、ビルドコマンド `npm run build`、公開ディレクトリ `dist` を指定してください。
 
 4. **アフィリエイトを実施する場合**
