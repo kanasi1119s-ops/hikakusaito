@@ -1,8 +1,8 @@
 {
-  "dataUpdatedAt": "2026-09-27",
+  "dataUpdatedAt": "2026-10-01",
   "exchangeRate": {
-    "jpyPerUsd": 157.19,
-    "asOf": "2026-09-27",
+    "jpyPerUsd": 158.33,
+    "asOf": "2026-10-01",
     "sourceUrl": "https://tradingeconomics.com/japan/currency",
     "note": "為替レートは日々変動します。表示している日本円換算額は上記日付時点の参考値であり、実際のご請求額はクレジットカード会社の適用レート・手数料により異なります。"
   },
@@ -1891,7 +1891,7 @@
       "descriptionJa": "テキストから音声を生成するAI音声合成サービス。ナレーション、ボイスクローン、API連携などの機能を提供する。",
       "mainModel": "独自のニューラルTTSモデル",
       "priceMonthlyUsd": 39,
-      "priceAnnualMonthlyUsd": null,
+      "priceAnnualMonthlyUsd": 31.2,
       "priceAnnualTotalUsd": null,
       "hasFreeTier": true,
       "webSearch": false,
@@ -1903,8 +1903,8 @@
       "teamPlanAvailable": true,
       "usageNote": "月250,000文字、インスタントボイスクローン10個まで",
       "sourceUrl": "https://play.ht/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "情報源間で月額（$19表記と$39表記）に差異があり、機能内容（25万文字・クローン10個）が一致する$39を採用。年払い額は情報源間で数値が一致せずnullとした。",
+      "checkedAt": "2026-10-01",
+      "note": "月払い$39、年払い換算$31.20（複数の二次情報源で確認、2026-10-01）。公開前に公式ページでの再確認を推奨。",
       "popularityTier": 3
     },
     {
@@ -1928,8 +1928,8 @@
       "teamPlanAvailable": true,
       "usageNote": "月250ダウンロード、プロジェクト5件、音声アバター24種類",
       "sourceUrl": "https://wellsaidlabs.com/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "情報源間でプラン名・価格（$44〜$49 / $89〜$99等）に差異があり、複数ソースで一致した$49（月払い）・$44（年払い月換算）を採用。無料プランはなくトライアルのみのためhasFreeTierはfalseとした。",
+      "checkedAt": "2026-10-01",
+      "note": "月額$49を複数の二次情報源で再確認（2026-10-01、数値変更なし）。公開前に公式ページでの再確認を推奨。",
       "popularityTier": 3
     },
     {
@@ -3153,8 +3153,8 @@
       "teamPlanAvailable": true,
       "usageNote": "無料プランはAIクレジット400を一度に付与。Proはクレジット上限を実質撤廃。上位のUltraプラン（$100/月、年払い設定なし）はカード数上限拡大や高度な画像モデルに対応。",
       "sourceUrl": "https://gamma.app/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "複数の比較サイト・公式ヘルプページを突き合わせたが、Pro月額を$18とする情報源も存在するなど表記に差異あり。年払い割引構造が明確な情報を優先採用した。",
+      "checkedAt": "2026-10-01",
+      "note": "二次情報源間で価格差あり（月払い$18〜$25、年払い換算$15〜$20）。掲載値は従来のまま。公開前に必ず公式ページで確認してください。",
       "popularityTier": 2
     },
     {

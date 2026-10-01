@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] - 2026-10-01
+
+### Fixed
+- 為替参考レートを更新（157.19→158.33円/USD）
+- Play.ht Creatorの年払い換算額（$31.20）を追加、WellSaid Labs・Gamma Proを再確認（Gamma Proは情報源間で価格差があるため注記を更新）
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
