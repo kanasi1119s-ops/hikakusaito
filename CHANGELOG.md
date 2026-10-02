@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] - 2026-09-29
+
+### Removed
+- Play.ht（Creator）を掲載から削除（151→150プラン）。2025年末にサービスが終了したと複数の情報源が報告しているため
+
+### Fixed
+- Gamma Proを再確認、WellSaid Labs Makerは価格が古い可能性を`note`に明記、為替レートを157.26円/USDに更新
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
