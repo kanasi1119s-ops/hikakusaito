@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-09-30
+
+### Fixed
+- 主要8プラン（ChatGPT・Claude・Google AI Ultra）の価格を再確認（変更なし、確認日のみ更新）。為替レート参考値を157.06円/USDに更新
+
 ## [Unreleased] - 2026-09-29
 
 ### Removed
