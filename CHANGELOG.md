@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-02
+
+### Fixed
+- 未マージだった4ブランチ（Play.ht削除、主要8プラン再確認、為替・ばらつき再確認、アフィリエイトのプレースホルダー）をmainに統合。為替参考レートを157.7円/USDに更新、Kling AI・LOVO AI・InVideo AIを再確認
+
 ## [Unreleased] - 2026-10-01
 
 ### Fixed
