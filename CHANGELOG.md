@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-03
+
+### Changed
+- 保守サイクル。Play.ht・Gammaの価格を再照合（変更なし）。為替参考値は据え置き。
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
