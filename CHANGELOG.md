@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-04
+
+### Fixed
+- WellSaid Labs Maker・Kling AI Standardを再照合（数値変更なし、確認日を更新）
+
 ## [Unreleased] - 2026-10-03
 
 ### Changed
