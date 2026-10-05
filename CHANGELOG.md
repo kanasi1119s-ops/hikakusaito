@@ -1,5 +1,19 @@
 # Changelog
 
+## [Unreleased] - 2026-10-05
+
+### Changed
+- 未マージだった保守ブランチ（msfmro・24xjzo）を統合。為替参考値を157.67円/USDに更新
+
+## [Unreleased] - 2026-10-04
+
+### Fixed
+- WellSaid Labs Maker・Kling AI Standardを再照合（数値変更なし、確認日を更新）
+
+## [Unreleased] - 2026-10-03
+
+### Changed
+- 保守サイクル。Play.ht・Gammaの価格を再照合（変更なし）。為替参考値は据え置き。
 ## [Unreleased] - 2026-10-02
 
 ### Fixed
