@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased] - 2026-10-06
+
+### Added
+- ChatGPT Pro（$500ティア）を追加（2026-09-29のOpenAI DevDayで新設、151→152プラン）
+
+### Changed
+- ChatGPT Pro（$200ティア）の利用量枠を約20倍→約10倍（新規契約者向け）に更新
+- お知らせに上記の変更を追加
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
