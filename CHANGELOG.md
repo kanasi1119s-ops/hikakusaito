@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] - 2026-10-07
+
+### Fixed
+- Gamma Pro（月額$25→$20）、InVideo AI Plus（月払い$35→$20）の価格を再照合して修正
+- WellSaid Labsの旧Makerプラン（2026年6月に廃止）をStarter・Proの2プランに置換（151→152プラン）
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
