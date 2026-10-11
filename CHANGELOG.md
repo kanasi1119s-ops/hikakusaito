@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-11
+
+### Changed
+- WellSaid Labs Makerに、プラン体系変更の可能性（公式未確認）の注意書きを追加。Play.htは再確認し変更なし
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
