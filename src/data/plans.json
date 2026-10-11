@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-09-27",
+  "dataUpdatedAt": "2026-10-11",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -102,7 +102,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Freeプランの5倍以上の利用量（5時間ごとのセッション制限）。Claude Codeを利用可能。",
       "sourceUrl": "https://claude.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "公式サイトを直接取得して確認。",
       "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタント。文章作成、コーディング支援（Claude Code）、資料の分析などに強みを持つ。",
       "popularityTier": 1
@@ -127,7 +127,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Proの5倍の利用量枠。年払いは提供されず月払いのみ。",
       "sourceUrl": "https://claude.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "公式サイトを直接取得して確認。",
       "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタントの上位プラン。Proの5倍の利用量枠を持つ。",
       "popularityTier": 1
@@ -152,7 +152,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Proの20倍の利用量枠。年払いは提供されず月払いのみ。",
       "sourceUrl": "https://claude.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "公式サイトの自動要約表示ではMax 5xと同額と誤表示される不具合があったため、複数の情報源（検索結果）を突き合わせて$200/月と判断。要最終確認。",
       "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタントの最上位プラン。Proの20倍の利用量枠を持つ。",
       "popularityTier": 1
