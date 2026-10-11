@@ -177,7 +177,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Deep ResearchやVeoによる動画生成を含む（公式情報で確認できず: 回数上限）",
       "sourceUrl": "https://one.google.com/about/google-ai-plans/",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。公開前に公式ページでの再確認を推奨。",
       "descriptionJa": "Googleが提供する汎用AIチャットアシスタント。Google製品との連携や、Deep Research、動画生成（Veo）などの機能を持つ。",
       "popularityTier": 1
@@ -202,7 +202,7 @@
       "teamPlanAvailable": true,
       "usageNote": "AI Proの5倍相当の利用量枠とされる（公式情報で確認できず: 正確な倍率）",
       "sourceUrl": "https://gemini.google/subscriptions/",
-      "checkedAt": "2026-09-26",
+      "checkedAt": "2026-10-11",
       "note": "2026年のGoogle I/Oで、従来$250だったAI Ultraが$199.99に値下げされ、新たに下位の$99.99ティアが追加され2段階になったことを、複数の独立した二次情報源（Engadget・9to5Google等の報道）で確認。公式サイトへの直接アクセスは環境のネットワーク制限により引き続き不可のため、公開前に必ずgemini.google/subscriptions/での目視確認をお願いします。",
       "descriptionJa": "Googleが提供する汎用AIチャットアシスタントのUltraプランのうち、利用量枠を抑えて価格を下げた新ティア。",
       "popularityTier": 2
@@ -227,7 +227,7 @@
       "teamPlanAvailable": true,
       "usageNote": "AI Proの20倍相当の利用量枠とされる（公式情報で確認できず: 正確な倍率）",
       "sourceUrl": "https://gemini.google/subscriptions/",
-      "checkedAt": "2026-09-26",
+      "checkedAt": "2026-10-11",
       "note": "従来から案内されている上位ティア（2026年のGoogle I/Oで$250から$199.99へ値下げ）。下位に$99.99ティアが新設され2段階になったことを複数の独立した二次情報源で確認。公式サイトへの直接アクセスは環境のネットワーク制限により引き続き不可のため、公開前に必ずgemini.google/subscriptions/での目視確認をお願いします。",
       "descriptionJa": "Googleが提供する汎用AIチャットアシスタントの最上位プラン。AI Proより広い利用量枠を持つ。",
       "popularityTier": 1
@@ -352,7 +352,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Word/Excel/PowerPoint/Outlook内でのAI優先アクセスを含む。単体のCopilot Proプランは2026年8月1日でサポート終了し、本プランへ統合された。",
       "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/premium",
-      "checkedAt": "2026-09-27",
+      "checkedAt": "2026-10-11",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。2026-09-27に複数の独立した二次情報源（Velosio・GoSearch・Oreate AI Guides等の解説記事）で$19.99/月・単体Copilot Proプランの終了という内容を再確認し、前回サイクルからの数値変更はなかった。ただしCopilot Pro終了時期は情報源により2025年後半〜2026年8月と幅があり確定できないため、公開前に公式ページでの再確認を引き続き推奨。",
       "descriptionJa": "Word・Excel・PowerPoint・Outlookなど、Microsoft 365製品内でAI機能（Copilot）を優先的に利用できるプラン。",
       "popularityTier": 1
@@ -753,7 +753,7 @@
       "teamPlanAvailable": true,
       "usageNote": "無制限のコード補完に加え月15ドル相当のAIクレジットを含む。2026年6月にトークン従量制のGitHub AIクレジット制度へ移行（1クレジット=0.01ドル）。上位にPro+($39)、Max($100)あり。",
       "sourceUrl": "https://github.com/features/copilot/plans",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "複数の二次情報源を突き合わせて確認。年間契約時の割引価格は検索で確認できずnullとした。",
       "popularityTier": 1
     },
@@ -1103,7 +1103,7 @@
       "teamPlanAvailable": true,
       "usageNote": "生成クレジット2,000/月付与。クレジット消費後は低速モードに切り替わる。",
       "sourceUrl": "https://www.adobe.com/products/firefly/plans.html",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "年払い価格は情報源間で確認が取れず(期間限定の初年度30%オフ情報のみ確認)nullとした。無料プランはモデル・生成回数に制限あり。",
       "popularityTier": 1
     },
@@ -1778,7 +1778,7 @@
       "teamPlanAvailable": true,
       "usageNote": "月121,000クレジット（文字数相当）、プロ音声クローニング機能を利用可能",
       "sourceUrl": "https://elevenlabs.io/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-10-11",
       "note": "公式ページに直接アクセスできない環境のため、G2・costbench等複数の比較サイト記事の記載を突き合わせて確認。Conversational AI（音声エージェント）機能があるためagentFeatureをtrueとした。",
       "popularityTier": 1
     },
@@ -2815,9 +2815,9 @@
       "category": "productivity_office",
       "descriptionJa": "ノート作成・ドキュメント管理・データベースを統合したワークスペースツールで、AI機能により文章生成・要約・検索補助などを行う。",
       "mainModel": null,
-      "priceMonthlyUsd": 20,
-      "priceAnnualMonthlyUsd": null,
-      "priceAnnualTotalUsd": null,
+      "priceMonthlyUsd": 24,
+      "priceAnnualMonthlyUsd": 20,
+      "priceAnnualTotalUsd": 240,
       "hasFreeTier": true,
       "webSearch": false,
       "deepResearch": false,
@@ -2828,8 +2828,8 @@
       "teamPlanAvailable": true,
       "usageNote": "Free/Plusプランでも無料AI応答が一定数まで利用可。フルのNotion AIはBusinessプラン以上で利用可能。カスタムAIエージェントは別途メータード課金(1,000クレジットあたり$10、繰越不可)。",
       "sourceUrl": "https://www.notion.com/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "2025年5月にAIアドオン単体販売が廃止されBusinessプランに統合。月額$20が月払い/年払いいずれの表示か複数情報源で確証が取れなかったため年払い額はnullとした。",
+      "checkedAt": "2026-10-11",
+      "note": "公式ページの月払い/年払い切替で確認: 月払い$24/席、年払い$20/席・月（年$240）。従来データは年払い額を月額として記載していたため修正。",
       "popularityTier": 1
     },
     {
