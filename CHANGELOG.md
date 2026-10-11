@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-11
+
+### Fixed
+- Claudeの3プランを再確認（数値変更なし）、確認日とデータ最終更新日を更新
+
 ## [Unreleased] - 2026-09-28
 
 ### Added
