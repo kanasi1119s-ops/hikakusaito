@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased] - 2026-10-11 (2)
+
+### Added
+- 会社名の横にSimple Icons(CC0)のブランドアイコンを表示（`scripts/gen-brand-icons.mjs`で生成、33社分。無い会社はイニシャルバッジのまま）
+- ChatGPT Go、Cursor Pro+、Cursor Ultraを追加（151→154プラン）
+
+### Changed
+- 主要プランの確認日を更新。「このサイトについて」と説明書の商標・アイコンの説明文を実態に合わせて修正
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed

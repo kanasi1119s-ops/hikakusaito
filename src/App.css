@@ -452,3 +452,8 @@ fieldset.filter-panel__row {
     background: #262a33;
   }
 }
+
+.company-badge-icon {
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+}
