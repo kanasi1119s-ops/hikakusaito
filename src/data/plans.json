@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-10-13",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -404,7 +404,7 @@
       "usageNote": "月払いは約$20/月、年払いだと実質$15/月。上位プランで複数の高度なAIモデルやリサーチ（Genius Assistant）機能が使える。API利用は別課金。",
       "sourceUrl": "https://you.com/pricing",
       "checkedAt": "2026-09-23",
-      "note": "検索エンジン経由でsaasworthy.com・aitoolpick.org等の複数の第三者情報源を突き合わせて確認。月払いの正確な金額は情報源により若干のばらつきがあった。",
+      "note": "検索エンジン経由でsaasworthy.com・aitoolpick.org等の複数の第三者情報源を突き合わせて確認。月払いの正確な金額は情報源により若干のばらつきがあった。 2026-10-13再調査: 2026年4月に$6.50への値下げを示す情報（単一の集計サイト）と$20表記が併存し確定できず。API中心への移行報告もあるため要公式確認。",
       "popularityTier": 2
     },
     {
@@ -2715,7 +2715,7 @@
       "category": "meeting_transcription",
       "descriptionJa": "会議中のノイズキャンセリングに加え、AIによる会議の文字起こし・要約・議事録作成機能を提供するアプリ。",
       "mainModel": "独自音声処理モデル + 生成AIによる要約",
-      "priceMonthlyUsd": 12,
+      "priceMonthlyUsd": 16,
       "priceAnnualMonthlyUsd": 8,
       "priceAnnualTotalUsd": 96,
       "hasFreeTier": true,
@@ -2728,8 +2728,8 @@
       "teamPlanAvailable": true,
       "usageNote": "Proプランはノイズキャンセリングの1日利用時間上限を撤廃。文字起こし・議事録機能は元々ノイズキャンセリングアプリに追加された機能で、無料プランにも一部制限付きで含まれる。",
       "sourceUrl": "https://krisp.ai/pricing/",
-      "checkedAt": "2026-09-23",
-      "note": "公式pricingページ(krisp.ai/pricing/)の内容を転載した記事を突き合わせて確認。情報源間で月払い/年払いの金額表記に若干のばらつきあり。",
+      "checkedAt": "2026-10-13",
+      "note": "2026-10-13に再確認。複数の二次情報源（TemperStack、Jamie等）で月払い$16、年払い月額$8（年$96）が一致したため月払いを$12→$16に修正。公式ページ(krisp.ai/pricing/)への直接アクセスは不可のため、公開前の目視確認を推奨。",
       "popularityTier": 3
     },
     {
@@ -2790,7 +2790,7 @@
       "category": "meeting_transcription",
       "descriptionJa": "オンライン会議の録画・文字起こしとAIによる議事録・要約作成を行うクレジット制のミーティングノートツール。",
       "mainModel": "生成AIによる会議要約・議事録作成",
-      "priceMonthlyUsd": 18,
+      "priceMonthlyUsd": 20,
       "priceAnnualMonthlyUsd": null,
       "priceAnnualTotalUsd": null,
       "hasFreeTier": true,
@@ -2801,10 +2801,10 @@
       "agentFeature": null,
       "apiIncluded": null,
       "teamPlanAvailable": true,
-      "usageNote": "2026年時点でシート課金からクレジット課金制へ移行中。無料(Starter)プランは月15クレジット。2026年4月頃から新料金体系への移行がアナウンスされており、情報源間で金額(Pro $16〜18/月など)にばらつきがあるため参考値。",
+      "usageNote": "2026年4月からシート課金からクレジット課金制へ移行。Proは月$20で月50クレジットを組織内で共有（公式ヘルプセンターの記載）。無料プランは月15クレジット。",
       "sourceUrl": "https://www.supernormal.com/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "公式pricingページ(supernormal.com/pricing)および公式ヘルプセンター(help.supernormal.com)の情報が新旧混在しており、複数の二次情報源を突き合わせたが金額に揺れがあるため要再確認。",
+      "checkedAt": "2026-10-13",
+      "note": "2026-10-13に再確認。公式ヘルプセンター(Supernormal 2.0 plans & pricing)でPro $20/月・50クレジットの記載を確認し、旧シート課金の$18から修正。一部の公式記事では同額プランが「Team」と表記されており名称が揺れている。公開前に公式ページでの目視確認を推奨。",
       "popularityTier": 3
     },
     {
