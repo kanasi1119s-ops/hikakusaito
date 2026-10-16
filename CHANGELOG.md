@@ -1,5 +1,12 @@
 # Changelog
 
+
+### Fixed
+- ChatGPT（Plus/Pro 100/Pro 200）とGoogle AI（Pro/Ultra 2段階）の価格を検索で再照合（数値変更なし）、確認日とデータ最終更新日を更新
+- 未反映: ChatGPT Proに月額$500ティアがあるとの報告が単一の二次情報源のみで確認できたため、裏付けが取れるまで掲載せず保留
+
+# Changelog
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
