@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] - 2026-10-17
+
+### Fixed
+- ChatGPT Plus／Pro（2段階）、Google AI Pro／Ultra（2段階）の価格を検索で再確認（数値変更なし）、確認日とデータ最終更新日を更新
+
+### 未対応（要確認）
+- ChatGPT Go（月$8）、Google AI Plus（月$4.99または$7.99）は情報源どうしで食い違うため掲載を見送り
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
