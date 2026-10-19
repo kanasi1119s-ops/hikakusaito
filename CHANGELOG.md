@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] - 2026-10-19
+
+### Added
+- GitHub CopilotのPro+・Maxプランを追加（公式ページで確認、151→153プラン）
+
+### Fixed
+- GitHub Copilot Proの確認日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
