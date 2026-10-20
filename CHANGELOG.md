@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] - 2026-10-20
+
+### Fixed
+- ChatGPT Plus・Google AI Pro/Ultra（2段階）を再確認（数値変更なし）、確認日とデータ最終更新日を更新
+- ChatGPT Proの注記に、二次情報で報告された未確認の価格変更情報を追記（価格は変更せず）
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
