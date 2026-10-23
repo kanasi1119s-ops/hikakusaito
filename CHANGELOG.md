@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-10-23
+
+### Fixed
+- ChatGPT・Google AI・Perplexity・SuperGrokの主要10プランを再確認（価格変更なし）、確認日とデータ最終更新日を更新。ChatGPT Pro $200ティアに「新規受付停止との報告あり（公式未確認）」の注記を追加
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
