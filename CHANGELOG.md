@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased] - 2026-10-24
+
+### Checked
+- 定期点検: `npm run check`（lint・型チェック・テスト・ビルド）が全件成功することを確認
+- ChatGPT・Claude・Google AIの主要プランを検索で再確認。Claude（Pro $20 / 年払い$17、Max $100 / $200）とGoogle AI Ultra（$100 / $200の2段階）は掲載内容と一致。公式ページを直接取得できなかったため、数値・確認日は変更していない
+- 要確認（未反映）: ChatGPT Goが月額$8で提供されているとの情報（OpenAI公式ブログの記載）があるが未掲載。また二次情報1件にChatGPT Proの$500ティアの記載があるが、他に裏付けがなく未反映
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
