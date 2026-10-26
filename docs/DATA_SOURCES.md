@@ -14,7 +14,8 @@
 |---|---|---|---|---|
 | 1 | ChatGPT Plus | https://openai.com/chatgpt/pricing/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可） |
 | 2a | ChatGPT Pro（$100ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。2026年4月新設の中間ティアを新規追加 |
-| 2b | ChatGPT Pro（$200ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。前回サイクルで要確認としていた$100〜$200のばらつきを、2段階ティアとして解消 |
+| 2b | ChatGPT Pro（$200ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-10-26 | 検索エンジン経由（直接アクセス不可）。前回サイクルで要確認としていた$100〜$200のばらつきを、2段階ティアとして解消 |
+| 2c | ChatGPT Pro（$500ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-10-26 | 検索エンジン経由（直接アクセス不可）。2026-09-29新設のティアを新規追加。$200ティアは利用量枠が約20倍→約10倍に改定 |
 | 3 | Claude Pro | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 4 | Claude Max 5x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 5 | Claude Max 20x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得＋検索エンジンでダブルチェック |
