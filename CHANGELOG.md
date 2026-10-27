@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] - 2026-10-27
+
+### Added
+- ChatGPT Go（月$8）とGoogle AI Plus（月$4.99）を追加（151→153プラン）
+
+### Fixed
+- ChatGPT / Google AI / Claudeの主要9プランを再確認（価格変更なし）、確認日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
