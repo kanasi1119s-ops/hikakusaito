@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-02",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -27,7 +27,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Free比で拡大した利用量枠（5時間ごとにリセット目安、正確な回数は非公開）",
       "sourceUrl": "https://openai.com/chatgpt/pricing/",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-02",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で複数の二次情報源を突き合わせて確認。公開前に公式ページでの再確認を推奨。",
       "descriptionJa": "OpenAIが提供する汎用AIチャットアシスタント。文章作成、コーディング支援、画像・動画生成、Web検索などを行える。",
       "popularityTier": 1
@@ -52,7 +52,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Plus比で約5倍の利用量枠。Deep Researchは月50回程度が目安（公式ヘルプセンターの説明に基づく）",
       "sourceUrl": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-      "checkedAt": "2026-09-26",
+      "checkedAt": "2026-11-02",
       "note": "前回サイクルで存在が未確認だった中間ティア。2026年4月に新設され、$200ティアと機能は同一で利用量枠のみ異なることを、複数の独立した二次情報源（ニュース記事・OpenAIヘルプセンターの説明）で確認。公式サイトへの直接アクセスは環境のネットワーク制限により引き続き不可のため、公開前に必ずchatgpt.com/pricingでの目視確認をお願いします。",
       "descriptionJa": "OpenAIが提供する汎用AIチャットアシスタントのProプランのうち、利用量枠を抑えて価格を下げた新ティア。機能自体は上位ティアと同じ。",
       "popularityTier": 2
@@ -77,7 +77,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Plus比で約20倍の利用量枠。Deep Researchは月250回程度が目安（公式ヘルプセンターの説明に基づく）",
       "sourceUrl": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
-      "checkedAt": "2026-09-26",
+      "checkedAt": "2026-11-02",
       "note": "従来から案内されている上位ティア。2026年4月以降は下位に$100ティアが追加され、Pro内で2段階になったことを複数の独立した二次情報源で確認。公式サイトへの直接アクセスは環境のネットワーク制限により引き続き不可のため、公開前に必ずchatgpt.com/pricingでの目視確認をお願いします。",
       "descriptionJa": "OpenAIが提供する汎用AIチャットアシスタントの最上位プラン。Plusよりも幅広い利用量枠で同じ機能を使える。",
       "popularityTier": 1
@@ -177,7 +177,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Deep ResearchやVeoによる動画生成を含む（公式情報で確認できず: 回数上限）",
       "sourceUrl": "https://one.google.com/about/google-ai-plans/",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-02",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。公開前に公式ページでの再確認を推奨。",
       "descriptionJa": "Googleが提供する汎用AIチャットアシスタント。Google製品との連携や、Deep Research、動画生成（Veo）などの機能を持つ。",
       "popularityTier": 1
@@ -753,8 +753,8 @@
       "teamPlanAvailable": true,
       "usageNote": "無制限のコード補完に加え月15ドル相当のAIクレジットを含む。2026年6月にトークン従量制のGitHub AIクレジット制度へ移行（1クレジット=0.01ドル）。上位にPro+($39)、Max($100)あり。",
       "sourceUrl": "https://github.com/features/copilot/plans",
-      "checkedAt": "2026-09-23",
-      "note": "複数の二次情報源を突き合わせて確認。年間契約時の割引価格は検索で確認できずnullとした。",
+      "checkedAt": "2026-11-02",
+      "note": "複数の二次情報源を突き合わせて確認。年間契約時の割引価格は検索で確認できずnullとした。 2026-11-02時点の二次情報では月額$10は変更なし。ただし2026年6月以降は利用量がAIクレジット制（Proは1,500クレジット）に変わり、上位にMax($100)も登場との情報あり。公式ページでの目視確認を推奨。",
       "popularityTier": 1
     },
     {
@@ -1078,7 +1078,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Fastモード15時間分/月、Relaxモードでの無制限生成込み。商用利用可、Stealth(非公開)モードは上位Proプランのみ。",
       "sourceUrl": "https://www.midjourney.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-02",
       "note": "公式ページを直接取得できない環境のため、複数の比較サイト(eesel AI, costbench等)の記載を突き合わせて確認。無料トライアルは現在提供されていない。",
       "popularityTier": 1
     },

@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-02
+
+### Fixed
+- ChatGPT Plus/Pro、Google AI Pro、GitHub Copilot Pro、Midjourney Standardを再確認（数値変更なし）、確認日とデータ最終更新日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
