@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-03",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -1903,7 +1903,7 @@
       "teamPlanAvailable": true,
       "usageNote": "月250,000文字、インスタントボイスクローン10個まで",
       "sourceUrl": "https://play.ht/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-03",
       "note": "情報源間で月額（$19表記と$39表記）に差異があり、機能内容（25万文字・クローン10個）が一致する$39を採用。年払い額は情報源間で数値が一致せずnullとした。",
       "popularityTier": 3
     },
@@ -1928,7 +1928,7 @@
       "teamPlanAvailable": true,
       "usageNote": "月250ダウンロード、プロジェクト5件、音声アバター24種類",
       "sourceUrl": "https://wellsaidlabs.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-03",
       "note": "情報源間でプラン名・価格（$44〜$49 / $89〜$99等）に差異があり、複数ソースで一致した$49（月払い）・$44（年払い月換算）を採用。無料プランはなくトライアルのみのためhasFreeTierはfalseとした。",
       "popularityTier": 3
     },
@@ -3140,9 +3140,9 @@
       "category": "design_presentation",
       "descriptionJa": "テキストプロンプトからプレゼンテーション、ドキュメント、簡易Webページを自動生成できるAIデザインツール。",
       "mainModel": "テキスト生成AIと画像生成AIを組み合わせた独自エンジン",
-      "priceMonthlyUsd": 25,
-      "priceAnnualMonthlyUsd": 20,
-      "priceAnnualTotalUsd": 240,
+      "priceMonthlyUsd": 20,
+      "priceAnnualMonthlyUsd": 15,
+      "priceAnnualTotalUsd": 180,
       "hasFreeTier": true,
       "webSearch": false,
       "deepResearch": false,
@@ -3153,8 +3153,8 @@
       "teamPlanAvailable": true,
       "usageNote": "無料プランはAIクレジット400を一度に付与。Proはクレジット上限を実質撤廃。上位のUltraプラン（$100/月、年払い設定なし）はカード数上限拡大や高度な画像モデルに対応。",
       "sourceUrl": "https://gamma.app/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "複数の比較サイト・公式ヘルプページを突き合わせたが、Pro月額を$18とする情報源も存在するなど表記に差異あり。年払い割引構造が明確な情報を優先採用した。",
+      "checkedAt": "2026-11-03",
+      "note": "2026-11-03にWebSearchで、公式ヘルプ記事（help.gamma.app）の記載として「Pro: 月払い$20/ユーザー、年払い$15/ユーザー月（年$180）」と複数の比較サイトが一致して報告していることを確認し、従来の$25/$20から修正。公式ページへ直接アクセスできなかったため、公開前に公式ページでの目視確認を推奨。",
       "popularityTier": 2
     },
     {

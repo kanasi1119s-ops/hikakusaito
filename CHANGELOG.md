@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-03
+
+### Fixed
+- Gamma Proの価格を修正（月払い$25→$20、年払い$20→$15）。Play.ht・WellSaid Labsは再確認のうえ数値変更なし
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
