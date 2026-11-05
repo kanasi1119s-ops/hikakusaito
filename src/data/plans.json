@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-05",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -1903,8 +1903,8 @@
       "teamPlanAvailable": true,
       "usageNote": "月250,000文字、インスタントボイスクローン10個まで",
       "sourceUrl": "https://play.ht/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "情報源間で月額（$19表記と$39表記）に差異があり、機能内容（25万文字・クローン10個）が一致する$39を採用。年払い額は情報源間で数値が一致せずnullとした。",
+      "checkedAt": "2026-11-05",
+      "note": "情報源間で月額表記に差異があったが、2026-11-05の再調査でも複数の二次情報源が月額$39で一致したため$39を採用。年払い額は情報源間で数値が一致せずnullのまま。公式ページの目視確認を推奨。",
       "popularityTier": 3
     },
     {
@@ -1916,7 +1916,7 @@
       "descriptionJa": "自然な合成音声（AIボイスアバター）を用いてナレーションを生成する、企業向けを中心としたテキスト読み上げプラットフォーム。",
       "mainModel": "独自のニューラルTTS音声モデル",
       "priceMonthlyUsd": 49,
-      "priceAnnualMonthlyUsd": 44,
+      "priceAnnualMonthlyUsd": null,
       "priceAnnualTotalUsd": 528,
       "hasFreeTier": false,
       "webSearch": false,
@@ -1928,8 +1928,8 @@
       "teamPlanAvailable": true,
       "usageNote": "月250ダウンロード、プロジェクト5件、音声アバター24種類",
       "sourceUrl": "https://wellsaidlabs.com/pricing",
-      "checkedAt": "2026-09-23",
-      "note": "情報源間でプラン名・価格（$44〜$49 / $89〜$99等）に差異があり、複数ソースで一致した$49（月払い）・$44（年払い月換算）を採用。無料プランはなくトライアルのみのためhasFreeTierはfalseとした。",
+      "checkedAt": "2026-11-05",
+      "note": "月払い$49は2026-11-05の再調査でも一致。ただし2026年中にプラン体系が改定され、現行名が「Pro」（年払い月換算$33との情報あり）の可能性があり、従来採用の年払い$44と食い違うため、年払い額はnullに変更。プラン名・年払い額は公式ページでの目視確認が必要。無料プランはなくトライアルのみ。",
       "popularityTier": 3
     },
     {

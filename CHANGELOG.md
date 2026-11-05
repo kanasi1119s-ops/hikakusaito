@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-05
+
+### Fixed
+- Play.ht Creatorを再確認（$39、確認日更新）。WellSaid Labsの年払い額を新旧情報の食い違いのためnullに変更し、データ最終更新日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
