@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased] - 2026-11-07
+
+### Fixed
+- ChatGPT（Plus・Pro $100/$200）、Claude（Pro・Max 5x/20x）、Google AI（Pro・Ultra $99.99/$199.99）の9プランをWebSearchで再照合し、価格の変更なし。確認日とデータ最終更新日を更新
+- 未確認の報道（ChatGPTの$500ティア、ClaudeのMax価格A/Bテスト）は一次情報で確認できないため掲載せず、次回の確認事項とした
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
