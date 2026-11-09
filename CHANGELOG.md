@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-09
+
+### Fixed
+- Claude Max 5x/20xの名称変更（Max / Ultra）を反映、ChatGPT Proの利用量変更に関する注記を追加、お知らせを追加
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
