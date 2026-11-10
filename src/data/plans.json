@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-10",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -136,7 +136,7 @@
       "id": "claude-max-20x",
       "company": "Anthropic",
       "service": "Claude",
-      "planName": "Max 20x",
+      "planName": "Ultra",
       "category": "general_chat",
       "mainModel": "Anthropicの最新Claudeモデル（自動更新）",
       "priceMonthlyUsd": 200,
@@ -150,11 +150,11 @@
       "agentFeature": true,
       "apiIncluded": false,
       "teamPlanAvailable": true,
-      "usageNote": "Proの20倍の利用量枠。年払いは提供されず月払いのみ。",
+      "usageNote": "公式表記は週あたりProの10倍の利用量枠で、認証済みアカウントは5時間ごとの上限なし。年払いは提供されず月払いのみ。",
       "sourceUrl": "https://claude.com/pricing",
-      "checkedAt": "2026-10-11",
-      "note": "公式サイトの自動要約表示ではMax 5xと同額と誤表示される不具合があったため、複数の情報源（検索結果）を突き合わせて$200/月と判断。要最終確認。",
-      "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタントの最上位プラン。Proの20倍の利用量枠を持つ。",
+      "checkedAt": "2026-11-10",
+      "note": "2026-11-10に公式サイトを直接取得して確認。従来の名称「Max 20x」は「Ultra」に変更され、利用量の表記も「Proの20倍」から「週あたりProの10倍」に変わっていた（月額$200は変更なし）。IDは共有URL互換のため従来のまま。",
+      "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタントの最上位プラン（旧称Max 20x）。Proの10倍の週間利用量枠を持つ。",
       "popularityTier": 1
     },
     {

@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-10
+
+### Fixed
+- Claude「Max 20x」を公式の新名称「Ultra」（週あたりProの10倍）に更新。価格$200は変更なし
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed

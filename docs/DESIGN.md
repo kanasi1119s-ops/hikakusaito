@@ -19,7 +19,7 @@
 | 2 | OpenAI | ChatGPT | Pro |
 | 3 | Anthropic | Claude | Pro |
 | 4 | Anthropic | Claude | Max 5x |
-| 5 | Anthropic | Claude | Max 20x |
+| 5 | Anthropic | Claude | Ultra（旧Max 20x） |
 | 6 | Google | Gemini | Google AI Pro |
 | 7 | Google | Gemini | Google AI Ultra |
 | 8 | Perplexity AI | Perplexity | Pro |
