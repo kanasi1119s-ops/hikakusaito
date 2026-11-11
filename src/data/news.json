@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-09-23",
+  "lastCheckedAt": "2026-11-11",
   "articles": [
     {
       "id": "2026-09-23-expand-140",
@@ -13,21 +13,40 @@
       "date": "2026-09-23",
       "title": "Google AI Ultraに新たに月額$99.99の下位ティアが追加",
       "body": "GoogleのAI Ultraプランについて、従来の$249.99からの値下げを経て、2026年に月額$199.99（20倍利用枠）に加え、新たに月額$99.99（5倍利用枠）のティアが追加されたとの情報を確認しました。詳しくは比較表のGoogle AI Ultraの項目をご覧ください。",
-      "relatedServices": ["gemini-ai-ultra-5x"]
+      "relatedServices": [
+        "gemini-ai-ultra-5x"
+      ]
     },
     {
       "id": "2026-09-23-microsoft-copilot-pro-retired",
       "date": "2026-09-23",
       "title": "Microsoft Copilot Pro単体プランが終了、Microsoft 365 Premiumに統合",
       "body": "個人向けの単体プランだった「Copilot Pro」は2026年8月1日でサポートが終了し、Word・Excel・PowerPoint・Outlookと統合された「Microsoft 365 Premium」（月額$19.99）が新しい個人向けの入り口となりました。本サイトも掲載プランをMicrosoft 365 Premiumに更新しています。",
-      "relatedServices": ["microsoft-365-premium"]
+      "relatedServices": [
+        "microsoft-365-premium"
+      ]
     },
     {
       "id": "2026-09-23-coding-assistants-price-changes",
       "date": "2026-09-23",
       "title": "コーディング支援AI各社で料金体系の変更が相次ぐ",
       "body": "Windsurf（旧Codeium）はクレジット制から日次/週次のクォータ制に移行し、月額がPro $15から$20へ改定されました。GitHub Copilotはトークン従量制のAIクレジット制度を導入。Amazon Q Developerは2026年5月に新規申込を終了し、2027年4月30日にサービス終了予定（後継はKiro）と案内されています。",
-      "relatedServices": ["windsurf-pro", "github-copilot-pro", "amazon-q-developer-pro"]
+      "relatedServices": [
+        "windsurf-pro",
+        "github-copilot-pro",
+        "amazon-q-developer-pro"
+      ]
+    },
+    {
+      "id": "2026-11-11-chatgpt-pro-500",
+      "date": "2026-11-11",
+      "title": "ChatGPT Proに月額$500のティアが追加、Pro各ティアの利用量が増枠と報道",
+      "body": "2026年9月29日にChatGPT Proの最上位として月額$500のティアが新設されたと報じられています。また10月29日にはPro各ティアの利用量枠が増えた（計画されていたPro $200の削減は取りやめ）と報じられていますが、対象範囲は情報源により異なります。価格自体の変更は確認できていません。いずれも二次情報のため、公式サイトでご確認ください。",
+      "relatedServices": [
+        "chatgpt-pro-100",
+        "chatgpt-pro-200",
+        "chatgpt-pro-500"
+      ]
     }
   ]
 }
