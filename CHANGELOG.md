@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased] - 2026-11-14
+
+### Added
+- ChatGPT Pro $500ティア（`chatgpt-pro-500`）を追加（151→152プラン）
+
+### Changed
+- Claude Max 20xを「Ultra（旧Max 20x）」（id: `claude-ultra`）に改称、Max 5xを「Max」に改称（公式ページ確認済み）。保存済みお気に入りに旧id（`claude-max-20x`）が含まれる場合は復元時に無視される
+- ChatGPT Pro各ティアの利用量説明を、改定が続いているため倍率を断定しない表現に変更
+- Gemini・ChatGPT Proを再確認、為替レートを157.86円/USD（2026-11-14）に更新、お知らせを1件追加
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
