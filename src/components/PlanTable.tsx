@@ -4,6 +4,7 @@ import { estimateTotalCostUsd, usdToJpy, type BillingCycle } from "../lib/calc";
 import { formatUsd, formatJpy } from "../lib/currency";
 import { CATEGORY_LABELS } from "../data/axes";
 import { CompanyBadge } from "./CompanyBadge";
+import { AffiliateCta } from "./AffiliateCta";
 
 interface PlanTableProps {
   plans: Plan[];
@@ -111,6 +112,7 @@ export function PlanTable({
             <th scope="col">動画生成</th>
             <th scope="col">エージェント</th>
             <th scope="col">出典・確認日</th>
+            <th scope="col">公式サイト</th>
           </tr>
         </thead>
         <tbody>
@@ -164,6 +166,9 @@ export function PlanTable({
                     出典
                   </a>
                   <div className="plan-table__checked-at">確認日: {plan.checkedAt}</div>
+                </td>
+                <td>
+                  <AffiliateCta label={`${plan.service} ${plan.planName} 公式サイトへ`} />
                 </td>
               </tr>
             );
