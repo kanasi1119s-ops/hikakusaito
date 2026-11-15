@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased] - 2026-11-15
+
+### Changed
+- 未マージだった約45ブランチの価格再確認結果を統合（151→157プラン）。Claude Max/Ultra改称、ChatGPT Go・Pro $500、Google AI Plus、GitHub Copilot Pro+/Max などを反映
+- Claude・Google AI Proを公式ページで再確認し確認日を更新、Google AI Proの年額($199.99)を追加
+- アフィリエイト用プレースホルダー（PR表記つき）、依存パッケージの脆弱性修正を統合
+
+
 ## [Unreleased] - 2026-11-06
 
 ### Fixed

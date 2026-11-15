@@ -118,3 +118,17 @@
 - 検証: `npm run check` 成功（ユニット33件）、E2E 19件成功、全70テキストファイルUTF-8 OK。`npm audit`は開発用依存に中程度の指摘あり（vitest/glob系。`npm audit fix`はnpmの内部エラーで失敗、その後、本番依存のzodに高severityの脆弱性（メモリ枯渇）を検出したため最新版へ更新し、本番依存の脆弱性は0件に。更新後もcheck・E2Eは全件成功）。
 - 人間がすべきこと: Play.ht・WellSaidの公式確認とPlay.htの掲載継続判断、従来の公開前確認項目。
 - 次回: 他のばらつきプランの再確認、依存関係の更新、PRプレースホルダー実装。
+
+
+---
+
+# 追記: 2026-11-15 サイクル（データ更新・未マージブランチの統合）
+
+- 種別: 継続（データ更新）。新規サイトは作成せず（前提: 既存サイトの鮮度維持と、積み残しの反映を優先）。
+- **最重要の発見**: `main` に未反映の `claude/bold-ptolemy-*` ブランチが約45本ありました（10/11〜11/14の価格再確認・プラン追加が `main` に入っていませんでした）。本サイクルでデータ変更を1つに統合しました（プラン数 151→157。ChatGPT Go / Pro $500、Google AI Plus、GitHub Copilot Pro+/Max、Claude Max→Max・Ultra改称、Play.ht削除、Gamma・Krisp・Supernormal等の価格修正を含む）。
+- 公式ページで直接再確認: Claude（Pro $20/年払い月換算$17、Max $100、Ultra $200）、Google AI Pro（月$19.99・年$199.99）。確認日を 2026-11-15 に更新。
+- 併せて統合したコード変更: アフィリエイト用プレースホルダー（「PR」表記つきボタン）、zodの脆弱性修正、公式確認用スクリプト。`npm audit`（本番依存）は脆弱性0件。
+- テスト: ユニット36件・E2E 20件すべて成功、lint・型・ビルド成功。UTF-8検証OK。
+- 統合時の判断: WellSaid Labsは「Starter/Pro化」の記載が公式未確認のため、Maker1プランのまま要確認注記を残しました。
+- 人間がすべきこと: ①本ブランチ `claude/bold-ptolemy-rl8ja7` をPRにして `main` へ統合（未マージの古いブランチ約45本は統合後に削除可）、②公式ページでの最終目視確認（ChatGPT各ティア・Perplexity・Grok等は公式に直接アクセスできず未再確認）、③public化・Pages・アフィリエイト等の従来の判断事項。
+- 次回: Perplexity・Grok・Copilotの再確認、ばらつきプラン（WellSaid・Gamma等）の公式確認。
