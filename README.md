@@ -65,6 +65,7 @@ public/       PWAマニフェスト・Service Worker・ファビコン
 - [`docs/RELEASE.md`](docs/RELEASE.md) ― 公開手順書（人間が実行）
 - [`docs/MANUAL.md`](docs/MANUAL.md) ― 素人向け説明書
 - [`docs/REPORT.md`](docs/REPORT.md) ― 日次レポート
+- [`docs/EGRESS_ALLOWLIST.md`](docs/EGRESS_ALLOWLIST.md) ― 公式サイト確認のために許可するドメイン一覧（`scripts/verify-sources.mjs` と併用）
 
 ## ライセンス
 
