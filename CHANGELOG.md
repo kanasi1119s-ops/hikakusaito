@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-06
+
+### Fixed
+- Play.ht・WellSaid Labsの再調査結果（情報源間の不一致、Play.htはサービス継続自体が不明）を `note` に追記。数値は公式未確認のため変更せず、公開前確認を促す注記のみ追加
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
