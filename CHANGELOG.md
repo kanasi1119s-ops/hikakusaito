@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-18
+
+### Fixed
+- ChatGPT Plus/Pro、Google AI Pro/Ultraの価格を再確認（数値変更なし。二次情報による確認のため公開前に公式で再確認を推奨）。確認日とデータ最終更新日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
