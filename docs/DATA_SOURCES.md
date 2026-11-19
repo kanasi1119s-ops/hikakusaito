@@ -1,6 +1,6 @@
 # データ出典一覧（DATA_SOURCES.md）
 
-作成日: 2026-09-23 / 最終更新: 2026-09-27（Microsoft 365 Premiumの再確認、為替レート更新） / 対象: `src/data/plans.json`
+作成日: 2026-09-23 / 最終更新: 2026-11-19（ChatGPT Pro $500ティア追加、主要プランの再確認。Plus/Gemini/Claude/Copilot Pro/Midjourneyは二次情報源での再確認で確認日を2026-11-19に更新。為替レートは未更新） / 対象: `src/data/plans.json`
 
 ## 出典の調査方法について（重要な制約）
 
@@ -15,6 +15,7 @@
 | 1 | ChatGPT Plus | https://openai.com/chatgpt/pricing/ | 2026-09-23 | 検索エンジン経由（直接アクセス不可） |
 | 2a | ChatGPT Pro（$100ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。2026年4月新設の中間ティアを新規追加 |
 | 2b | ChatGPT Pro（$200ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-09-26 | 検索エンジン経由（直接アクセス不可）。前回サイクルで要確認としていた$100〜$200のばらつきを、2段階ティアとして解消 |
+| 2c | ChatGPT Pro（$500ティア） | https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers | 2026-11-19 | 検索エンジン経由（公式は403で直接取得不可）。2026-09-29新設。倍率は第三者報道値 |
 | 3 | Claude Pro | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 4 | Claude Max 5x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得 |
 | 5 | Claude Max 20x | https://claude.com/pricing | 2026-09-23 | 公式サイト直接取得＋検索エンジンでダブルチェック |

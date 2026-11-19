@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased] - 2026-11-19
+
+### Added
+- ChatGPT Proの最上位「Pro（$500ティア）」を追加（151→152プラン）。2026年9月29日新設と複数の二次情報源が報道。お知らせ記事も追加
+
+### Fixed
+- ChatGPT Pro（$200ティア）の利用量枠引き下げ報道を注記に反映（未確定として明記）
+- 主要プラン（ChatGPT Plus、Gemini、Claude、GitHub Copilot Pro、Midjourney）を再確認し確認日を更新（数値変更なし）
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
