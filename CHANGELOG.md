@@ -1,5 +1,16 @@
 # Changelog
 
+## [Unreleased] - 2026-11-20
+
+### Changed
+- Claudeの「Max 5x」を「Max」、「Max 20x」を「Ultra」に名称変更（公式ページに合わせた。価格は不変、IDは維持）
+- ChatGPT Pro $100/$200ティアの利用量の説明を、情報源間の不一致を明記する形に修正
+- ChatGPT Plus・Google AI Pro/Ultra・GitHub Copilot Pro・Cursor Proを再確認し確認日を更新
+
+### Added
+- ChatGPT「Pro（$500ティア）」を追加（151→152プラン）
+- お知らせ3件（Claude名称変更、ChatGPT Pro 500、Google AI Plus）
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed

@@ -1,5 +1,5 @@
 {
-  "lastCheckedAt": "2026-09-23",
+  "lastCheckedAt": "2026-11-20",
   "articles": [
     {
       "id": "2026-09-23-expand-140",
@@ -13,21 +13,57 @@
       "date": "2026-09-23",
       "title": "Google AI Ultraに新たに月額$99.99の下位ティアが追加",
       "body": "GoogleのAI Ultraプランについて、従来の$249.99からの値下げを経て、2026年に月額$199.99（20倍利用枠）に加え、新たに月額$99.99（5倍利用枠）のティアが追加されたとの情報を確認しました。詳しくは比較表のGoogle AI Ultraの項目をご覧ください。",
-      "relatedServices": ["gemini-ai-ultra-5x"]
+      "relatedServices": [
+        "gemini-ai-ultra-5x"
+      ]
     },
     {
       "id": "2026-09-23-microsoft-copilot-pro-retired",
       "date": "2026-09-23",
       "title": "Microsoft Copilot Pro単体プランが終了、Microsoft 365 Premiumに統合",
       "body": "個人向けの単体プランだった「Copilot Pro」は2026年8月1日でサポートが終了し、Word・Excel・PowerPoint・Outlookと統合された「Microsoft 365 Premium」（月額$19.99）が新しい個人向けの入り口となりました。本サイトも掲載プランをMicrosoft 365 Premiumに更新しています。",
-      "relatedServices": ["microsoft-365-premium"]
+      "relatedServices": [
+        "microsoft-365-premium"
+      ]
     },
     {
       "id": "2026-09-23-coding-assistants-price-changes",
       "date": "2026-09-23",
       "title": "コーディング支援AI各社で料金体系の変更が相次ぐ",
       "body": "Windsurf（旧Codeium）はクレジット制から日次/週次のクォータ制に移行し、月額がPro $15から$20へ改定されました。GitHub Copilotはトークン従量制のAIクレジット制度を導入。Amazon Q Developerは2026年5月に新規申込を終了し、2027年4月30日にサービス終了予定（後継はKiro）と案内されています。",
-      "relatedServices": ["windsurf-pro", "github-copilot-pro", "amazon-q-developer-pro"]
+      "relatedServices": [
+        "windsurf-pro",
+        "github-copilot-pro",
+        "amazon-q-developer-pro"
+      ]
+    },
+    {
+      "id": "2026-11-20-claude-rename",
+      "date": "2026-11-20",
+      "title": "ClaudeのMaxプランが名称変更：「Max 5x」→「Max」、「Max 20x」→「Ultra」",
+      "body": "Anthropic公式の料金ページで、月$100のプランが「Max」、月$200のプランが「Ultra」と表示されていました。価格は変わっていません。Ultraは5時間ごとの利用制限がなく、週あたりPro比10倍の利用量と案内されています。",
+      "relatedServices": [
+        "claude-max-5x",
+        "claude-max-20x"
+      ]
+    },
+    {
+      "id": "2026-11-20-chatgpt-pro-500",
+      "date": "2026-11-20",
+      "title": "ChatGPTに月額$500の「Pro 500」ティアが追加",
+      "body": "2026年9月末のDevDayで発表された最上位ティアです。Pro 100・200・500の利用量倍率は情報源により表記が異なるため、公式ページでの確認をおすすめします。Pro $200の利用量半減計画は取り消されたとの報道があります。",
+      "relatedServices": [
+        "chatgpt-pro-100",
+        "chatgpt-pro-200",
+        "chatgpt-pro-500"
+      ]
+    },
+    {
+      "id": "2026-11-20-google-ai-plus",
+      "date": "2026-11-20",
+      "title": "Google AI Plus：11月13日からGeminiでのProモデルの手動選択ができなくなると報道",
+      "body": "Googleは11月13日から、AI Plus加入者がGeminiアプリ等でProモデルを手動で選べなくなると通知していると報じられています（価格変更ではなくモデル選択の制限）。なお本サイトではAI Plusは掲載対象外です。",
+      "relatedServices": []
     }
   ]
 }
