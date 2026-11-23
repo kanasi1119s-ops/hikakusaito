@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-23",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -27,7 +27,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Free比で拡大した利用量枠（5時間ごとにリセット目安、正確な回数は非公開）",
       "sourceUrl": "https://openai.com/chatgpt/pricing/",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-23",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で複数の二次情報源を突き合わせて確認。公開前に公式ページでの再確認を推奨。",
       "descriptionJa": "OpenAIが提供する汎用AIチャットアシスタント。文章作成、コーディング支援、画像・動画生成、Web検索などを行える。",
       "popularityTier": 1
@@ -177,7 +177,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Deep ResearchやVeoによる動画生成を含む（公式情報で確認できず: 回数上限）",
       "sourceUrl": "https://one.google.com/about/google-ai-plans/",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-23",
       "note": "セッション内からの直接アクセスが環境のネットワーク制限で不可だったため、検索エンジン経由で確認。公開前に公式ページでの再確認を推奨。",
       "descriptionJa": "Googleが提供する汎用AIチャットアシスタント。Google製品との連携や、Deep Research、動画生成（Veo）などの機能を持つ。",
       "popularityTier": 1
@@ -753,8 +753,8 @@
       "teamPlanAvailable": true,
       "usageNote": "無制限のコード補完に加え月15ドル相当のAIクレジットを含む。2026年6月にトークン従量制のGitHub AIクレジット制度へ移行（1クレジット=0.01ドル）。上位にPro+($39)、Max($100)あり。",
       "sourceUrl": "https://github.com/features/copilot/plans",
-      "checkedAt": "2026-09-23",
-      "note": "複数の二次情報源を突き合わせて確認。年間契約時の割引価格は検索で確認できずnullとした。",
+      "checkedAt": "2026-11-23",
+      "note": "複数の二次情報源を突き合わせて確認。年間契約時の割引価格は検索で確認できずnullとした。 2026-11-23再確認: 月額10ドルは据え置き。付属AIクレジット額は情報源により10ドル/15ドルと食い違うため要公式確認。2026年4月以降の新規申込一時停止の解除有無も未確認。",
       "popularityTier": 1
     },
     {
@@ -1078,7 +1078,7 @@
       "teamPlanAvailable": true,
       "usageNote": "Fastモード15時間分/月、Relaxモードでの無制限生成込み。商用利用可、Stealth(非公開)モードは上位Proプランのみ。",
       "sourceUrl": "https://www.midjourney.com/pricing",
-      "checkedAt": "2026-09-23",
+      "checkedAt": "2026-11-23",
       "note": "公式ページを直接取得できない環境のため、複数の比較サイト(eesel AI, costbench等)の記載を突き合わせて確認。無料トライアルは現在提供されていない。",
       "popularityTier": 1
     },

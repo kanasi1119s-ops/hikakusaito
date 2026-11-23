@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-23
+
+### Fixed
+- ChatGPT Plus・Gemini AI Pro・GitHub Copilot Pro・Midjourney Standardの価格を再確認（数値変更なし）、確認日とデータ最終更新日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
