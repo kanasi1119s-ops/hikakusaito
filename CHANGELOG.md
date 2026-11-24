@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased] - 2026-11-24
+
+### Added
+- ChatGPT Pro の新ティア「Pro（$500ティア）」を追加（151→152プラン）
+
+### Fixed
+- ChatGPT Plus/Pro、Google AI Pro/Ultra、GitHub Copilot Pro の価格を再確認（数値変更なし）、確認日を更新
+- 為替レートを156.77円/USD（2026-10-26時点）に更新
+
+### Notes
+- GitHub Copilotは2026年6月から利用量課金（AIクレジット）に移行し、Pro+（$39）・Max（$100）も存在。次回サイクルで掲載を検討
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
