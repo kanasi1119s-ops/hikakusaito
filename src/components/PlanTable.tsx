@@ -1,3 +1,4 @@
+import { AffiliateLink } from "./AffiliateLink";
 import { useMemo, useState } from "react";
 import type { Plan } from "../lib/schema";
 import { estimateTotalCostUsd, usdToJpy, type BillingCycle } from "../lib/calc";
@@ -164,6 +165,7 @@ export function PlanTable({
                     出典
                   </a>
                   <div className="plan-table__checked-at">確認日: {plan.checkedAt}</div>
+                  <AffiliateLink planId={plan.id} />
                 </td>
               </tr>
             );

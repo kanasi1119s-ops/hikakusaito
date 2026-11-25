@@ -452,3 +452,5 @@ fieldset.filter-panel__row {
     background: #262a33;
   }
 }
+
+.pr-badge { display: inline-block; margin-right: 4px; padding: 0 4px; font-size: 0.75em; border: 1px solid currentColor; border-radius: 3px; }

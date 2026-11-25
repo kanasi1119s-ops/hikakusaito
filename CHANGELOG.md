@@ -42,3 +42,11 @@
 - PWA対応（オフラインでの閲覧に対応するService Worker、マニフェスト）
 - ユニットテスト20件（Vitest）、E2Eテスト15件（Playwright）
 - 「このサイトについて」「使い方」ページ
+
+## [Unreleased] - 2026-11-25
+
+### Added
+- アフィリエイトリンクの受け皿（`src/lib/affiliate.ts`、`AffiliateLink`）を追加。URL未設定の間は何も表示されず、設定すると「PR」表記・`rel="sponsored"`つきで表示される。実リンクは未設定。
+
+### Changed
+- WellSaid Labs Maker・Gamma Proの`note`に再確認が必要な旨を追記（数値は公式未確認のため変更せず）
