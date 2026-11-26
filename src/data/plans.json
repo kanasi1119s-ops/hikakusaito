@@ -1,5 +1,5 @@
 {
-  "dataUpdatedAt": "2026-10-11",
+  "dataUpdatedAt": "2026-11-26",
   "exchangeRate": {
     "jpyPerUsd": 157.19,
     "asOf": "2026-09-27",
@@ -7,6 +7,31 @@
     "note": "為替レートは日々変動します。表示している日本円換算額は上記日付時点の参考値であり、実際のご請求額はクレジットカード会社の適用レート・手数料により異なります。"
   },
   "plans": [
+    {
+      "id": "chatgpt-go",
+      "company": "OpenAI",
+      "service": "ChatGPT",
+      "planName": "Go",
+      "category": "general_chat",
+      "mainModel": "OpenAIの軽量モデル（自動更新）",
+      "priceMonthlyUsd": 8,
+      "priceAnnualMonthlyUsd": null,
+      "priceAnnualTotalUsd": null,
+      "hasFreeTier": true,
+      "webSearch": true,
+      "deepResearch": null,
+      "imageGeneration": null,
+      "videoGeneration": null,
+      "agentFeature": null,
+      "apiIncluded": false,
+      "teamPlanAvailable": null,
+      "usageNote": "公式情報で確認できず: 利用量上限の詳細",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-go",
+      "checkedAt": "2026-11-26",
+      "note": "2026-11-26にWebSearchでOpenAI公式の発表記事（月額$8）を確認。直接アクセスは環境制限で不可。Free/Goは広告表示ありと報じられている。機能の細部は未確認のため—（未確認）表示。公開前に公式ページで再確認を推奨。",
+      "descriptionJa": "OpenAIが提供する低価格帯のChatGPTプラン。Plusより安価で、Freeより利用量枠が広い。広告つき。",
+      "popularityTier": 1
+    },
     {
       "id": "chatgpt-plus",
       "company": "OpenAI",
@@ -155,6 +180,31 @@
       "checkedAt": "2026-10-11",
       "note": "公式サイトの自動要約表示ではMax 5xと同額と誤表示される不具合があったため、複数の情報源（検索結果）を突き合わせて$200/月と判断。要最終確認。",
       "descriptionJa": "Anthropicが提供する汎用AIチャットアシスタントの最上位プラン。Proの20倍の利用量枠を持つ。",
+      "popularityTier": 1
+    },
+    {
+      "id": "gemini-ai-plus",
+      "company": "Google",
+      "service": "Gemini",
+      "planName": "Google AI Plus",
+      "category": "general_chat",
+      "mainModel": "Googleの最新Geminiモデル（自動更新）",
+      "priceMonthlyUsd": 7.99,
+      "priceAnnualMonthlyUsd": null,
+      "priceAnnualTotalUsd": null,
+      "hasFreeTier": true,
+      "webSearch": null,
+      "deepResearch": null,
+      "imageGeneration": null,
+      "videoGeneration": null,
+      "agentFeature": null,
+      "apiIncluded": false,
+      "teamPlanAvailable": null,
+      "usageNote": "公式情報で確認できず: 利用量上限の詳細",
+      "sourceUrl": "https://one.google.com/about/google-ai-plans/",
+      "checkedAt": "2026-11-26",
+      "note": "2026-11-26にWebSearchで二次情報（月額$7.99）を確認したのみで、Google公式ページでは未確認。米国価格。公開前に必ず公式ページで再確認が必要。",
+      "descriptionJa": "Googleが提供する低価格帯のAIプラン。AI Proの下位にあたる。",
       "popularityTier": 1
     },
     {
