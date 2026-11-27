@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased] - 2026-11-27
+
+### Changed
+- データ鮮度確認サイクル。価格の確証が取れた変更はなく、数値は変更なし。要確認事項は `docs/REPORT.md` を参照
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
