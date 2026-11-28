@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased] - 2026-11-28
+
+### Added
+- ChatGPT Pro（$500ティア）を追加（151→152プラン）。Ultrafastモデル込み、Plus比約25倍の利用量枠
+
+### Fixed
+- ChatGPT Pro（$200ティア）の利用量枠を約20倍→約10倍に修正（二次情報による）
+- ChatGPT Plus/Pro、Google AI Pro/Ultraの価格を再照合（変更なし）、確認日を更新
+
 ## [Unreleased] - 2026-10-11
 
 ### Fixed
